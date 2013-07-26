@@ -1,0 +1,35 @@
+{title}Edit Comment{/title}
+{add_bread_crumb}Edit Comment{/add_bread_crumb}
+
+{form action=$active_comment->getEditUrl() method=post ask_on_leave=yes}
+  {wrap field=body}
+    {label required=yes}Comment{/label}
+    {editor_field name='comment[body]' class='validate_callback tiny_value_present' inline_attachments=$comment_data.inline_attachments}{$comment_data.body}{/editor_field}
+  {/wrap}
+{foreach from=$subscribers item=subscriber}
+<div style="vertical-align:middle;">
+	<div style="display:inline;width:150px;float:left;">{$subscriber->getName()}</div>
+	<div style="display:inline;">Action Request</div>
+	<div style="display:inline;">
+		{*}<input type="checkbox" name="comment[action_request][]" value="{$subscriber->getId()}" {if $logged_user->getId()==$subscriber->getId()} disabled="disabled" {/if}{*}
+		<input type="checkbox" name="comment[action_request][]" value="{$subscriber->getId()}"  
+		{foreach from=$action_request_users item=action_request_user}
+		{if $action_request_user==$subscriber->getId()} checked {/if}
+		{/foreach}
+		style="width:20px;" />
+	</div>
+	<div style="display:inline;">FYI</div>
+	<div style="display:inline;">
+		{*}<input type="checkbox" name="comment[subscribers_to_notify][]" value="{$subscriber->getId()}" {if $logged_user->getId()==$subscriber->getId()} disabled="disabled" {/if}{*}
+                <input type="checkbox" name="comment[subscribers_to_notify][]" value="{$subscriber->getId()}" 
+		{foreach from=$fyi_users item=fyi_user}
+		{if $fyi_user==$subscriber->getId()} checked {/if}
+		{/foreach}
+		style="width:20px;" />
+	</div>
+</div>
+{/foreach}
+  {wrap_buttons}
+    {submit}Submit{/submit}
+  {/wrap_buttons}
+{/form}

@@ -1,0 +1,123 @@
+Logged on: Saturday, 17-Sep-11 13:44:40 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route projects assembled
+#10 - info - Route project_overview assembled
+#11 - info - Route project_overview assembled
+#12 - info - Event 'on_project_tabs' triggered
+#13 - info - Route project_milestones assembled
+#14 - info - Route project_tickets assembled
+#15 - info - Route project_pages assembled
+#16 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#17 - info - Route project_checklists assembled
+#18 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#19 - info - Route project_discussions assembled
+#20 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route attachments_list assembled
+#22 - info - Route project_files assembled
+#23 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_tickets assembled
+#37 - info - Route project_tickets_archive assembled
+#38 - info - Route project_tickets_add assembled
+#39 - info - Route project_ticket assembled
+#40 - info - Route project_tickets_mass_edit assembled
+#41 - error - [Notice] Undefined index:  mode (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 720)
+#42 - info - Event 'on_before_object_validation' triggered
+#43 - info - Event 'on_after_object_validation' triggered
+#44 - info - Event 'on_before_object_save' triggered
+#45 - info - Event 'on_before_object_update' triggered
+#46 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#47 - info - Event 'on_object_updated' triggered
+#48 - info - Event 'on_after_object_save' triggered
+#49 - error - [Notice] Undefined index:  reminder (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 773)
+#50 - error - [Notice] Undefined index:  recurring_period (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 773)
+#51 - error - [Notice] Undefined index:  recurring_period_type (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 773)
+#52 - error - [Warning] Invalid argument supplied for foreach() (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/project_objects/ProjectObject.class.php on 3293)
+#53 - error - [Warning] Invalid argument supplied for foreach() (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/project_objects/ProjectObject.class.php on 3299)
+#54 - error - [Warning] Invalid argument supplied for foreach() (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/project_objects/ProjectObject.class.php on 3305)
+#55 - error - [Warning] Invalid argument supplied for foreach() (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/project_objects/ProjectObject.class.php on 3312)
+#56 - error - [Notice] Undefined index:  new_team_id (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 783)
+#57 - error - [Notice] Undefined index:  new_team_id (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 786)
+#58 - error - [Notice] Undefined index:  new_team_id (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 795)
+#59 - error - [Notice] Undefined index:  new_team_id (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 797)
+#60 - error - [Notice] Undefined index:  new_team_id (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 800)
+#61 - info - Route project_ticket assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_update' triggered
+#16 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#17 - info - Event 'on_object_updated' triggered
+#18 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route projects assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_milestones assembled
+#11 - info - Route project_tickets assembled
+#12 - info - Route project_pages assembled
+#13 - info - Route project_checklists assembled
+#14 - info - Route project_discussions assembled
+#15 - info - Route attachments_list assembled
+#16 - info - Route project_files assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route project_calendar assembled
+#22 - info - Route image_picker assembled
+#23 - info - Route project_categories assembled
+#24 - info - Route project_category_add assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_tickets_archive assembled
+#27 - info - Route project_tickets_add assembled
+#28 - info - Route project_ticket assembled
+#29 - info - Route project_tickets_mass_edit assembled
+#30 - info - Route project_ticket assembled
+
+======================================================
+

@@ -1,0 +1,285 @@
+Logged on: Thursday, 14-Mar-13 08:43:14 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route attachment_move_to assembled
+#19 - info - Route image_uploader assembled
+#20 - info - Route render_comments assembled
+#21 - info - Route project_task_move assembled
+#22 - info - Route collection assembled
+#23 - info - Route project_task_quickreminder assembled
+#24 - info - Route project_object_convert_to_ticket assembled
+#25 - info - Route project_object_convert_to_milestone assembled
+#26 - info - Route project_object_convert_to_page assembled
+#27 - info - Route projects assembled
+#28 - info - Route project_overview assembled
+#29 - info - Route project_overview assembled
+#30 - info - Event 'on_project_tabs' triggered
+#31 - info - Route project_milestones assembled
+#32 - info - Route project_tickets assembled
+#33 - info - Route project_pages assembled
+#34 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Route project_checklists assembled
+#36 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Route project_discussions assembled
+#38 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#39 - info - Route attachments_list assembled
+#40 - info - Route project_files assembled
+#41 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#42 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#43 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#44 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#45 - info - Route project_time assembled
+#46 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#47 - info - Route project_people assembled
+#48 - info - Route recent_pages assembled
+#49 - info - Route reminders_list assembled
+#50 - info - Route project_calendar assembled
+#51 - info - Route image_picker assembled
+#52 - info - Route project_categories assembled
+#53 - info - Route project_category_add assembled
+#54 - info - Route project_tickets assembled
+#55 - info - Route project_tickets_archive assembled
+#56 - info - Route project_tickets_add assembled
+#57 - info - Route project_ticket assembled
+#58 - info - Route project_tickets_mass_edit assembled
+#59 - error - [Notice] Undefined index:  is_responsible (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 510)
+#60 - error - [Notice] Undefined index:  priority (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 522)
+#61 - error - [Notice] Undefined index:  action_request_user (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 532)
+#62 - error - [Notice] Undefined index:  dID (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 583)
+#63 - error - [Notice] Undefined index:  pID (in /home/ffbhpro/public_html/activecollab/application/modules/tickets/controllers/TicketsController.class.php on 588)
+#64 - info - Route people_company_user assembled
+#65 - info - Route project_ticket_edit assembled
+#66 - info - Route project_object_lock assembled
+#67 - info - Route project_object_star assembled
+#68 - info - Route project_object_trash assembled
+#69 - info - Route project_object_complete assembled
+#70 - info - Route project_object_unsubscribe assembled
+#71 - info - Route project_object_subscriptions assembled
+#72 - info - Route attachments assembled
+#73 - info - Event 'on_project_object_options' triggered
+#74 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#75 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#76 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#77 - info - Route project_ticket_edit assembled
+#78 - info - Route project_object_complete assembled
+#79 - info - Route project_object_unsubscribe assembled
+#80 - info - Route project_tasks_add assembled
+#81 - info - Route reminders_add assembled
+#82 - info - Event 'on_project_object_quick_options' triggered
+#83 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#84 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#85 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#86 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#87 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#88 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#89 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#90 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#91 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#92 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#93 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#94 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#95 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#96 - info - Route project_ticket_edit assembled
+#97 - info - Route project_ticket_edit assembled
+#98 - error - [Notice] Undefined variable: recurring_period (in /home/ffbhpro/public_html/activecollab/application/modules/resources/helpers/function.object_recurring_period.php on 35)
+#99 - error - [Notice] Undefined variable: recurring_period_type (in /home/ffbhpro/public_html/activecollab/application/modules/resources/helpers/function.object_recurring_period.php on 37)
+#100 - error - [Notice] Undefined variable: recurring_period_type (in /home/ffbhpro/public_html/activecollab/application/modules/resources/helpers/function.object_recurring_period.php on 38)
+#101 - error - [Notice] Undefined variable: recurring_period_type (in /home/ffbhpro/public_html/activecollab/application/modules/resources/helpers/function.object_recurring_period.php on 39)
+#102 - error - [Notice] Undefined variable: recurring_period_type (in /home/ffbhpro/public_html/activecollab/application/modules/resources/helpers/function.object_recurring_period.php on 40)
+#103 - info - Route project_people assembled
+#104 - info - Route project_people assembled
+#105 - info - Route project_people assembled
+#106 - info - Route project_people assembled
+#107 - info - Route project_milestone assembled
+#108 - info - Route project_people assembled
+#109 - info - Route project_people assembled
+#110 - info - Route project_people assembled
+#111 - info - Route project_people assembled
+#112 - info - Route project_people assembled
+#113 - info - Route project_people assembled
+#114 - info - Route project_people assembled
+#115 - info - Route project_people assembled
+#116 - info - Route responsible_status_popup assembled
+#117 - info - Route project_time assembled
+#118 - info - Route print_description assembled
+#119 - info - Route attachments assembled
+#120 - info - Route attachments assembled
+#121 - info - Route people_company_user assembled
+#122 - info - Route people_company_user assembled
+#123 - info - Route people_company_user assembled
+#124 - info - Route people_company_user assembled
+#125 - info - Route people_company_user assembled
+#126 - info - Route people_company_user assembled
+#127 - info - Route people_company_user assembled
+#128 - info - Route people_company_user assembled
+#129 - info - Route object_subscribers_widget assembled
+#130 - info - Route project_object_subscriptions assembled
+#131 - info - Route project_tasks_add assembled
+#132 - info - Route project_tasks_print assembled
+#133 - info - Route project_tasks_reorder assembled
+#134 - info - Route project_tasks_add assembled
+#135 - error - [Notice] Undefined index:  task_data (in /home/ffbhpro/public_html/compile/%%AF^AFC^AFC6E4FF%%_object_tasks.tpl.php on 196)
+#136 - error - [Notice] Undefined index:  task_data (in /home/ffbhpro/public_html/compile/%%AF^AFC^AFC6E4FF%%_object_tasks.tpl.php on 197)
+#137 - info - Route project_tasks_add assembled
+#138 - error - [Notice] Undefined index:  count_start (in /home/ffbhpro/public_html/compile/%%B2^B28^B2802C05%%view.tpl.php on 151)
+#139 - info - Route project_ticket assembled
+#140 - info - Event 'on_before_object_validation' triggered
+#141 - info - Event 'on_after_object_validation' triggered
+#142 - info - Event 'on_before_object_save' triggered
+#143 - info - Event 'on_before_object_update' triggered
+#144 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#145 - info - Event 'on_object_updated' triggered
+#146 - info - Event 'on_after_object_save' triggered
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_project_object_options' triggered
+#13 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#14 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#15 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#16 - info - Event 'on_project_object_quick_options' triggered
+#17 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#18 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#19 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#20 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#21 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#22 - info - Event 'on_before_object_validation' triggered
+#23 - info - Event 'on_after_object_validation' triggered
+#24 - info - Event 'on_before_object_save' triggered
+#25 - info - Event 'on_before_object_update' triggered
+#26 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#27 - info - Event 'on_object_updated' triggered
+#28 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route attachment_move_to assembled
+#17 - info - Route image_uploader assembled
+#18 - info - Route render_comments assembled
+#19 - info - Route project_task_move assembled
+#20 - info - Route collection assembled
+#21 - info - Route project_task_quickreminder assembled
+#22 - info - Route project_object_convert_to_ticket assembled
+#23 - info - Route project_object_convert_to_milestone assembled
+#24 - info - Route project_object_convert_to_page assembled
+#25 - info - Route projects assembled
+#26 - info - Route project_overview assembled
+#27 - info - Route project_overview assembled
+#28 - info - Route project_milestones assembled
+#29 - info - Route project_tickets assembled
+#30 - info - Route project_pages assembled
+#31 - info - Route project_checklists assembled
+#32 - info - Route project_discussions assembled
+#33 - info - Route attachments_list assembled
+#34 - info - Route project_files assembled
+#35 - info - Route project_time assembled
+#36 - info - Route project_people assembled
+#37 - info - Route recent_pages assembled
+#38 - info - Route reminders_list assembled
+#39 - info - Route project_calendar assembled
+#40 - info - Route image_picker assembled
+#41 - info - Route project_categories assembled
+#42 - info - Route project_category_add assembled
+#43 - info - Route project_tickets assembled
+#44 - info - Route project_tickets_archive assembled
+#45 - info - Route project_tickets_add assembled
+#46 - info - Route project_ticket assembled
+#47 - info - Route project_tickets_mass_edit assembled
+#48 - info - Route people_company_user assembled
+#49 - info - Route project_ticket_edit assembled
+#50 - info - Route project_object_lock assembled
+#51 - info - Route project_object_star assembled
+#52 - info - Route project_object_trash assembled
+#53 - info - Route project_object_complete assembled
+#54 - info - Route project_object_unsubscribe assembled
+#55 - info - Route project_object_subscriptions assembled
+#56 - info - Route attachments assembled
+#57 - info - Route project_ticket_edit assembled
+#58 - info - Route project_object_complete assembled
+#59 - info - Route project_object_unsubscribe assembled
+#60 - info - Route project_tasks_add assembled
+#61 - info - Route reminders_add assembled
+#62 - info - Route project_ticket_edit assembled
+#63 - info - Route project_ticket_edit assembled
+#64 - info - Route project_people assembled
+#65 - info - Route project_people assembled
+#66 - info - Route project_people assembled
+#67 - info - Route project_people assembled
+#68 - info - Route project_milestone assembled
+#69 - info - Route project_people assembled
+#70 - info - Route project_people assembled
+#71 - info - Route project_people assembled
+#72 - info - Route project_people assembled
+#73 - info - Route project_people assembled
+#74 - info - Route project_people assembled
+#75 - info - Route project_people assembled
+#76 - info - Route project_people assembled
+#77 - info - Route responsible_status_popup assembled
+#78 - info - Route project_time assembled
+#79 - info - Route print_description assembled
+#80 - info - Route attachments assembled
+#81 - info - Route attachments assembled
+#82 - info - Route people_company_user assembled
+#83 - info - Route people_company_user assembled
+#84 - info - Route people_company_user assembled
+#85 - info - Route people_company_user assembled
+#86 - info - Route people_company_user assembled
+#87 - info - Route people_company_user assembled
+#88 - info - Route people_company_user assembled
+#89 - info - Route people_company_user assembled
+#90 - info - Route object_subscribers_widget assembled
+#91 - info - Route project_object_subscriptions assembled
+#92 - info - Route project_tasks_add assembled
+#93 - info - Route project_tasks_print assembled
+#94 - info - Route project_tasks_reorder assembled
+#95 - info - Route project_tasks_add assembled
+#96 - info - Route project_tasks_add assembled
+#97 - info - Route project_ticket assembled
+
+======================================================
+

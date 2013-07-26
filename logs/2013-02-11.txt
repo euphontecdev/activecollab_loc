@@ -1,0 +1,30 @@
+Logged on: Monday, 11-Feb-13 10:02:07 GMT
+Available groups: all, sql
+
+all:
+
+#1 - error - SQL error. MySQL said: Lock wait timeout exceeded; try restarting transaction
+(DELETE FROM healingcrystals_user_sessions WHERE expires_on < '2013-02-11 10:01:08')
+
+sql
+
+#1 - error - SQL error. MySQL said: Lock wait timeout exceeded; try restarting transaction
+(DELETE FROM healingcrystals_user_sessions WHERE expires_on < '2013-02-11 10:01:08')
+
+======================================================
+
+Logged on: Monday, 11-Feb-13 10:02:07 GMT
+Available groups: all, sql
+
+all:
+
+#1 - error - SQL error. MySQL said: Lock wait timeout exceeded; try restarting transaction
+(DELETE FROM healingcrystals_user_sessions WHERE expires_on < '2013-02-11 10:01:08')
+
+sql
+
+#1 - error - SQL error. MySQL said: Lock wait timeout exceeded; try restarting transaction
+(DELETE FROM healingcrystals_user_sessions WHERE expires_on < '2013-02-11 10:01:08')
+
+======================================================
+

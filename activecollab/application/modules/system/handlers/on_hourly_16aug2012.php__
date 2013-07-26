@@ -1,0 +1,83 @@
+<?php
+/*14 May 2012 (SA)Ticket #840: modify Task Reminder Emails
+ * 
+ */
+  /**
+   * System handle hourly tasks
+   *
+   * @package activeCollab.modules.system
+   * @subpackage handlers
+   */
+  
+  /**
+   * Do hourly tasks
+   *
+   * @param void
+   * @return null
+   */
+  function system_handle_on_hourly() {
+    $cache =& Cache::instance();
+    if(instance_of($cache->backend, 'CacheBackend')) {
+      $cache->backend->cleanup();
+    } // if
+    //BOF:mod
+    $time_end = time() - (4 * 60 * 60);
+    $time_start = $time_end - (60 * 60);
+    $comment = 'Auto Reminder';
+    $link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+    mysql_select_db(DB_NAME);
+    $query = "select distinct a.object_id from 
+              healingcrystals_project_object_misc a 
+              inner join healingcrystals_project_objects b on a.object_id=b.id where 
+              b.type='Task' and 
+              b.state='" . STATE_VISIBLE . "' and 
+              (b.completed_on is null or b.completed_on='') and 
+              a.reminder_date is not null and 
+              a.reminder_date<>'0000-00-00' and 
+              a.auto_email_status='1' and 
+              ((a.reminder_date between '" . date('Y-m-d H:i:s', $time_start) . "' and '" . date('Y-m-d H:i:s', $time_end) . "')
+                  or (a.recurring_period_type = 'D' and recurring_period = '1' and recurring_period_condition = 'after_due_date' and (recurring_end_date > '".date('Y-m-d')."' or recurring_end_date = '0000-00-00') and date_format(a.reminder_date,'%H:%i:%s') between '" . date('H:i:s', $time_start) . "' and '" . date('H:i:s', $time_end) . "'))";
+    mysql_query("insert into testing (date_added, content) values (now(), '" . mysql_real_escape_string($query) . "')");
+    $result = mysql_query($query, $link);
+    while ($entry = mysql_fetch_assoc($result)){
+        $task_obj = new Task($entry['object_id']);
+        $parent = $task_obj->getParent();        
+        $project = $task_obj->getProject();
+        $assignees = $task_obj->getAssignees();
+        
+    	$reminders_sent = array();
+    	foreach($assignees as $user) {
+            //if ($user->getEmail()=='anuj@focusindia.com'){
+                $reminder = new Reminder();
+
+                $reminder->setAttributes(array(
+                    'user_id'   => $user->getId(),
+                    'object_id' => $task_obj->getId(),
+                    'comment'   => $comment,
+                ));
+                //$reminder->setCreatedBy($this->logged_user);
+
+                $save = $reminder->save();
+                if($save && !is_error($save)) {
+                    $reminders_sent[] = $user->getDisplayName();
+                    ApplicationMailer::send($user, 'system/reminder', array(
+                          'reminded_by_name'  => 'AutoReminder',
+                          'reminded_by_url'   => '',
+                          'object_name'       => $task_obj->getName(),
+                          'object_url'        => $task_obj->getViewUrl(),
+                          'object_type'       => strtolower($task_obj->getType()),
+                          'comment_body'      => $comment,
+                          'project_name'      => $project->getName(),
+                          'project_url'       => $project->getOverviewUrl(),
+                          'ticket_name'       => $parent->getName(),
+                          'ticket_url'       => $parent->getViewUrl(),
+                  ), $task_obj);
+                } // if
+            //}
+        } // foreach
+    }
+    mysql_close($link);
+    //EOF:mod
+  } // system_handle_on_hourly
+
+?>

@@ -1,0 +1,422 @@
+<?php
+
+  /**
+   * System handle daily tasks
+   *
+   * @package activeCollab.modules.system
+   * @subpackage handlers
+   */
+  
+  /**
+   * Do daily taks
+   *
+   * @param void
+   * @return null
+   */
+  function system_handle_on_daily() {
+    ProjectObjectViews::cleanUp();
+
+	$priorities_images = array(
+		PRIORITY_URGENT 	=> 'assets/images/icons/priority/urgent.png',
+		PRIORITY_HIGHEST 	=> 'assets/images/icons/priority/highest.gif',
+		PRIORITY_HIGH    	=> 'assets/images/icons/priority/high.gif',
+		PRIORITY_NORMAL  	=> 'assets/images/icons/priority/normal.gif',
+		PRIORITY_LOW     	=> 'assets/images/icons/priority/low.gif',
+		PRIORITY_LOWEST  	=> 'assets/images/icons/priority/lowest.gif',
+		PRIORITY_HOLD  		=> 'assets/images/icons/priority/hold.png',
+		'-99'  				=> 'assets/images/icons/priority/unknown.png',);
+
+	$pages = array();
+	$link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+	mysql_select_db(DB_NAME);
+	$sql = "select id, name from healingcrystals_project_objects where project_id='" . TASK_LIST_PROJECT_ID . "' and type='Page'";
+	$result = mysql_query($sql, $link);
+	while ($entry = mysql_fetch_assoc($result)){
+		list($name, ) = explode('-', $entry['name']);
+		$name = trim($name);
+		$pages[$name] = $entry['id'];
+	}
+	
+	$current_time = time();
+
+	$users = Users::findAll();
+	foreach($users as $user){
+		$flag = 1;
+		$message = '';
+		$name = $user->getName();
+		if (array_key_exists($name, $pages)){
+			$page = new Page($pages[$name]);
+			if ($page){
+				if (date('N')=='1'){
+					$message .= 
+	'<style>
+		.odd {background-color:#ffffff;}
+		.even{background-color:#eeeeee;}
+	</style>
+	<table>
+		<tr>
+			<td colspan="2">Task List: ' . $name . '</td>
+		</tr>
+		<tr>
+			<td align="center">Priority</td>
+			<td>Task</td>
+		</tr>';
+					$tasks = Tasks::findOpenByObject($page);
+					foreach($tasks as $task){
+						$message .= '
+		<tr class="' . ($flag%2===1 ? 'odd' : 'even' ) . '">
+			<td valign="top" align="center"><img  src="http://projects.ffbh.org/public/' . $priorities_images[$task->getPriority()] . '"/></td>
+			<td valign="top">' . $task->getName() . '</td>
+		</tr>';
+						$flag++;
+					}
+					$message .= '
+	</table>';
+					$subject = 'projects: healingcrystals.com Task list';
+					$headers  = 'MIME-Version: 1.0' . "\r\n";
+					$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+					$headers .= 'From: FFBH Reminder <auto@ffbh.org>' . "\r\n";
+					mail($user->getEmail(), $subject, $message, $headers);
+				}
+
+				$message = '';
+				$sql = "select id, '-99' as priority from healingcrystals_project_objects where parent_id='" . $pages[$name] . "' and parent_type='Page' and type='Task' and completed_on is null and priority is null and created_on>='" . date('Y-m-d H:i:s', $current_time - (1*24*60*60) ) . "' order by created_on";
+				mysql_query("insert into testing (date_added, content) values (now(), '" . mysql_real_escape_string($sql) . "')");
+				$result = mysql_query($sql, $link);
+				if (mysql_num_rows($result)){
+					$flag = 1;
+					$message .= 
+	'<style>
+		.odd {background-color:#ffffff;}
+		.even{background-color:#eeeeee;}
+	</style>
+	<table>
+		<tr>
+			<td colspan="2">Action Request Allocations for ' . $name . ' in Previous Day</td>
+		</tr>
+		<tr>
+			<td align="center">Priority</td>
+			<td>Task</td>
+		</tr>';
+					while ($entry = mysql_fetch_assoc($result)){
+						$task = new Task($entry['id']);
+						$message .= '
+		<tr class="' . ($flag%2===1 ? 'odd' : 'even' ) . '">
+			<td valign="top" align="center"><img  src="http://projects.ffbh.org/public/' . $priorities_images[$entry['priority']] . '"/></td>
+			<td valign="top">' . $task->getName() . '</td>
+		</tr>';
+						$flag++;
+					}
+					$message .= '
+	</table>';
+					$subject = 'projects: healingcrystals.com Action Request Allocations for Previous Day';
+					$headers  = 'MIME-Version: 1.0' . "\r\n";
+					$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+					$headers .= 'From: FFBH Reminder <auto@ffbh.org>' . "\r\n";
+					mail($user->getEmail(), $subject, $message, $headers);
+				}
+			}
+		}
+		
+	}
+	mysql_close($link);
+    // delete all attachments without parent older than 2 days
+    //Attachments::delete(array('created_on < ? AND (parent_id IS NULL OR parent_id = 0)', new DateTimeValue('-2 days')));
+	/*
+    $current_time = time();
+    $temp = $current_time - (24 * 60 * 60);
+    $previous_day_start = mktime(0, 0, 0, date('n', $temp), date('j', $temp), date('Y', $temp));
+    $previous_day_end = mktime(23, 59, 59, date('n', $temp), date('j', $temp), date('Y', $temp));
+    $targeted_users = array();
+    
+    $link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+    mysql_select_db(DB_NAME);
+    
+    $query_01 = "select a.user_id, b.id, d.id as parent_id 
+             from healingcrystals_assignments_action_request a 
+             inner join healingcrystals_project_objects b on a.comment_id=b.id 
+             inner join healingcrystals_project_objects d on b.parent_id=d.id 
+             left outer join healingcrystals_project_objects e on d.milestone_id=e.id 
+             inner join healingcrystals_projects c on b.project_id=c.id 
+             where b.state='" . STATE_VISIBLE . "' and  a.is_action_request='1' 
+             and d.state='" . STATE_VISIBLE . "' and (d.completed_on is null or d.completed_on='') ";
+    $query_01_part = " and a.date_added between '" . date('Y-m-d H:i:s', $previous_day_start) . "' and '" . date('Y-m-d H:i:s', $previous_day_end) . "' ";
+    $query_01_end = " order by a.user_id, e.priority desc, c.name, a.date_added desc";
+
+    $result = mysql_query($query_01 . $query_01_part, $link);
+    //$action_request_info = array();
+    //$cur_user_id = '';
+    if (mysql_num_rows($result)){
+        while ($entry = mysql_fetch_assoc($result)){
+            if (!in_array($entry['user_id'], $targeted_users)){
+                $targeted_users[] = $entry['user_id'];
+            }
+            
+            //if (empty($cur_user_id) || $cur_user_id!=$entry['user_id']){
+            //    $action_request_info[(string)$entry['user_id']] = array();
+            //    $cur_user_id = $entry['user_id'];
+            //}
+            
+            //if (!array_key_exists((string)$entry['parent_id'], $action_request_info[(string)$cur_user_id])){
+            //    $action_request_info[(string)$cur_user_id][(string)$entry['parent_id']] = array();
+            //}
+            
+            //$action_request_info[(string)$cur_user_id][(string)$entry['parent_id']][] = $entry['id'];
+        }
+    }
+    
+    $query_02 = "select a.user_id, b.id, d.id as parent_id 
+             from healingcrystals_assignments_action_request a 
+             inner join healingcrystals_project_objects b on a.comment_id=b.id 
+             inner join healingcrystals_project_objects d on b.parent_id=d.id 
+             left outer join healingcrystals_project_objects e on d.milestone_id=e.id 
+             inner join healingcrystals_projects c on b.project_id=c.id 
+             where b.state='" . STATE_VISIBLE . "' and a.is_fyi='1' 
+             and d.state='" . STATE_VISIBLE . "' and (d.completed_on is null or d.completed_on='') ";
+    $query_02_part = " and a.date_added between '" . date('Y-m-d H:i:s', $previous_day_start) . "' and '" . date('Y-m-d H:i:s', $previous_day_end) . "' ";
+    $query_02_end = " order by a.user_id, e.priority desc, c.name, a.date_added desc";
+    $result = mysql_query($query_02 . $query_02_part, $link);
+    //$fyi_info = array();
+    //$cur_user_id = '';
+    if (mysql_num_rows($result)){
+        while ($entry = mysql_fetch_assoc($result)){
+            if (!in_array($entry['user_id'], $targeted_users)){
+                $targeted_users[] = $entry['user_id'];
+            }
+            
+            //if (empty($cur_user_id) || $cur_user_id!=$entry['user_id']){
+            //    $fyi_info[(string)$entry['user_id']] = array();
+            //    $cur_user_id = $entry['user_id'];
+            //}
+            
+            //if (!array_key_exists((string)$entry['parent_id'], $fyi_info[(string)$cur_user_id])){
+            //    $fyi_info[(string)$cur_user_id][(string)$entry['parent_id']] = array();
+            //}
+            
+            //$fyi_info[(string)$cur_user_id][(string)$entry['parent_id']][] = $entry['id'];
+        }
+    }
+    
+    $query_03 = "SELECT distinct a.id, a.type, b.user_id, c.reminder_date, 
+                IF(c.reminder_date is null, a.due_on, IF(a.due_on<=c.reminder_date, a.due_on, c.reminder_date)) as old_date 
+                FROM healingcrystals_project_objects a 
+                inner join healingcrystals_assignments b on a.id=b.object_id  
+                left outer join healingcrystals_project_object_misc c on (a.id=c.object_id) 
+                where a.state='" . STATE_VISIBLE . "' and b.is_owner='1' and 
+                (a.type='Task' or a.type='Ticket') and (a.completed_on is null or a.completed_on='') ";
+    $query_03_part = " and ((c.reminder_date is not null and c.reminder_date<>'0000-00-00' and c.reminder_date<=now()) or (a.due_on is not null and a.due_on<=now()) ) ";
+    $query_03_end = " order by b.user_id, IFNULL(a.priority, '0') desc, old_date";
+    $result = mysql_query($query_03 . $query_03_part, $link);
+    //$due_info = array();
+    //$cur_user_id = '';
+    if (mysql_num_rows($result)){
+        while ($entry = mysql_fetch_assoc($result)){
+            if (!in_array($entry['user_id'], $targeted_users)){
+                $targeted_users[] = $entry['user_id'];
+            }
+            
+            //if (empty($cur_user_id) || $cur_user_id!=$entry['user_id']){
+            //    $due_info[(string)$entry['user_id']] = array();
+            //    $cur_user_id = $entry['user_id'];
+            //}
+            
+            //$due_info[(string)$cur_user_id][] = array('type' => $entry['type'], 'id' => $entry['id'], 'reminder' => $entry['reminder_date']);
+        }
+    }
+    
+    $tickets_due_table_start = '
+    <table style="border:1px solid black;" width="100%">
+        <tr>
+            <th colspan="4" align="left">&nbsp;&nbsp;&nbsp;Due Tickets & Tasks</th>
+        </tr>
+        <tr>
+            <th align="left">Type</th>
+            <th align="left">Name</th>
+            <th align="left">Priority</th>
+            <th align="left">Due on / Reminder</th>
+        </tr>';
+    $tickets_due_table_end = '
+    </table>';
+    
+    $action_request_table_start = '
+    <table style="border:1px solid black;" width="100%">
+        <tr>
+            <th align="left">&nbsp;&nbsp;&nbsp;Action Request Comment(s)</th>
+        </tr>';
+    $action_request_table_end = '
+    </table>';
+    
+    $fyi_table_start = '
+    <table style="border:1px solid black;" width="100%">
+        <tr>
+            <th align="left">&nbsp;&nbsp;&nbsp;FYI Comment(s)</th>
+        </tr>';
+    $fyi_table_end = '
+    </table>';
+    
+    foreach($targeted_users as $userid){
+        $user = new User($userid);
+        //if ($user->getEmail()=='anuj@focusindia.com'){
+            if (false===UserConfigOptions::getValue('generate_daily_mail', $user)){
+                continue;
+            }
+            
+            $action_request_info = array();
+            $query_01_part = " and a.user_id='" . (int)$userid . "' ";
+            $result = mysql_query($query_01 . $query_01_part . $query_01_end, $link);
+            if (mysql_num_rows($result)){
+                while ($entry = mysql_fetch_assoc($result)){
+                    if (!array_key_exists((string)$entry['parent_id'], $action_request_info[(string)$userid])){
+                        $action_request_info[(string)$userid][(string)$entry['parent_id']] = array();
+                    }
+
+                    $action_request_info[(string)$userid][(string)$entry['parent_id']][] = $entry['id'];
+                }
+            }
+            
+            
+            $fyi_info = array();
+            $query_02_part = " and a.user_id='" . (int)$userid . "' ";
+            $result = mysql_query($query_02 . $query_02_part . $query_02_end, $link);
+            if (mysql_num_rows($result)){
+                while ($entry = mysql_fetch_assoc($result)){
+                    if (!array_key_exists((string)$entry['parent_id'], $fyi_info[(string)$userid])){
+                        $fyi_info[(string)$userid][(string)$entry['parent_id']] = array();
+                    }
+
+                    $fyi_info[(string)$userid][(string)$entry['parent_id']][] = $entry['id'];
+                }
+            }
+            
+            $due_info = array();
+            $query_03_part .= " and b.user_id='" . (int)$userid . "' ";
+            $result = mysql_query($query_03 . $query_03_part . $query_03_end, $link);
+            if (mysql_num_rows($result)){
+                while ($entry = mysql_fetch_assoc($result)){
+                    $due_info[(string)$userid][] = array('type' => $entry['type'], 'id' => $entry['id'], 'reminder' => $entry['reminder_date']);
+                }
+            }
+            
+             
+            $tickets_due_content = '';            
+            if ($due_info[(string)$userid] && is_array($due_info[(string)$userid])){
+                foreach ($due_info[(string)$userid] as $entry){
+                    $type = $entry['type'];
+                    $obj = new $type($entry['id']);
+                
+                    $due_date_val = $obj->getDueOn();
+                    if (!empty($due_date_val)){
+                        $due_date = date('F d, Y', strtotime($obj->getDueOn()));
+                    } else {
+                        $due_date = '--';
+                    }
+
+                    if (!empty($entry['reminder']) && $entry['reminder']!='0000-00-00'){
+                        $reminder_date = date('F d, Y', strtotime($entry['reminder']));
+                    } else {
+                        $reminder_date = '--';
+                    }
+                
+                    if ($tickets_due_flag=='due'){
+                        $date_string = $due_date . ' / ' . $reminder_date;
+                    } else {
+                        $date_string = $due_date;
+                    }
+                
+                    $tickets_due_content .= '
+        <tr>
+            <td>' . $type . '</td>
+            <td>
+                <a target="_blank" href="' . $obj->getViewUrl() . '">
+                    <span class="homepageobject">' .  strip_tags($obj->getName()) . '</span>
+                </a>
+            </td>
+            <td>' . $obj->getFormattedPriority() .  '</td>
+            <td> ' . $date_string . '</td>
+        </tr>';
+                    unset($obj);
+                }
+            }
+            
+            $action_request_content = '';
+            if ($action_request_info[(string)$userid] && is_array($action_request_info[(string)$userid])){
+                foreach ($action_request_info[(string)$userid] as $key => $value){
+                    $comment_links = '';
+                    $count = 0;
+                    foreach ($value as $comment_id){
+                        $count++;
+                        $obj = new Comment($comment_id);                        
+                        $comment_links .= '<a target="_blank" href="' . $obj->getViewUrl() . '" class="anc01">#' . $count . '</a>&nbsp;&nbsp;&nbsp;';
+                        if (!$parentobj){
+                            $projectobj = new Project($obj->getProjectId());
+                            $parenttype = $obj->getParentType();
+                            $parentobj = new $parenttype($obj->getParentId());
+                        }
+                    }
+                    $action_request_content .= '
+        <tr>
+            <td vlaign="top" class="comment_link">
+                &nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="' . $parentobj->getViewUrl() . '">
+                    <span class="homepageobject">' . $parentobj->getName() . '</span>
+                </a>
+                &nbsp;&nbsp;&nbsp;' . $comment_links . 
+            '</td>
+        </tr>';
+                    unset($parentobj);
+                }
+            }
+            
+            $fyi_content = '';
+            if ($fyi_info[(string)$userid] && is_array($fyi_info[(string)$userid])){
+                foreach ($fyi_info[(string)$userid] as $key => $value){
+                    $comment_links = '';
+                    $count = 0;
+                    foreach ($value as $comment_id){
+                        $count++;
+                        $obj = new Comment($comment_id);
+                        $comment_links .= '<a target="_blank" href="' . $obj->getViewUrl() . '" class="anc01">#' . $count . '</a>&nbsp;&nbsp;&nbsp;';
+                        if (!$parentobj){
+                            $projectobj = new Project($obj->getProjectId());
+                            $parenttype = $obj->getParentType();
+                            $parentobj = new $parenttype($obj->getParentId());
+                        }
+                    }
+                    $fyi_content .= '
+        <tr>
+            <td vlaign="top" class="comment_link">
+                &nbsp;&nbsp;&nbsp;
+                <a target="_blank" href="' . $parentobj->getViewUrl() . '">
+                    <span class="homepageobject">' . $parentobj->getName() . '</span>
+                </a>
+                &nbsp;&nbsp;&nbsp;' . $comment_links . 
+            '</td>
+        </tr>';
+                    unset($parentobj);
+                }
+            }
+            
+            $message = '<div>';
+            if (!empty($tickets_due_content)){
+                $message .= $tickets_due_table_start . $tickets_due_content . $tickets_due_table_end . '<br/><br/>';
+            }
+            if (!empty($action_request_content)){
+                $message .= $action_request_table_start . $action_request_content . $action_request_table_end . '<br/><br/>';
+            }
+            if (!empty($fyi_content)){
+                $message .= $fyi_table_start . $fyi_content . $fyi_table_end . '<br/><br/>';
+            }
+            $message .= '</div>';
+            
+            $subject = 'projects: healingcrystals.com notifications for ' . $user->getName();
+            $headers  = 'MIME-Version: 1.0' . "\r\n";
+            $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+            $headers .= 'From: FFBH Reminder <auto@ffbh.org>' . "\r\n";
+            mail($user->getEmail(), $subject, $message, $headers);
+        //}
+    }
+    mysql_close($link);
+	*/
+  } // system_handle_on_daily
+
+?>

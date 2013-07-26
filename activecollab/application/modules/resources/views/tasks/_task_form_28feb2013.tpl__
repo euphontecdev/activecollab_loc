@@ -1,0 +1,96 @@
+{*11 April 2012 Ticket #784: check Recurring Reminder email script in AC*}
+<div class="form_full_view">
+  {wrap field=body}
+    {label for=taskSummary required=yes}Summary{/label}
+	{*}<textarea name="task[body]" class='title required' id="taskSummary" style="width:95%;height:100px;">{$task_data.body|strip_tags}</textarea>{*}
+                <span id="span_task_summary_editor" style="display:block;">
+				{*}{editor_field name='task[body]' class='long required' id="taskSummary" mce_editable="false" visual="false"}{$task_data.body}{/editor_field}{*}
+                                {editor_field name='task[body]' class='validate_callback tiny_value_present' id="taskSummary"}{$task_data.body}{/editor_field}
+				</span>
+                <span id="span_task_summary_plain" style="display:none;">
+                <input type="text" name='task[body_plain]' class='long required taskSummaryText' id='taskSummary' value="{$task_data.body|strip_tags}" />
+				</span>
+				<br />
+				<a class="additional_form_links" href="javascript://" id="ancEditType">Quick edit</a>
+  {/wrap}
+  <div class="col">
+  {wrap field=priority}
+    {label for=taskPriority}Priority{/label}
+    {select_priority name='task[priority]' value=$task_data.priority id=taskPriority}
+  {/wrap}
+  </div>
+
+  <div class="col" style="width:15%;">
+  {wrap field=due_on}
+    {label for=taskDueOn}Due on{/label}
+    {select_date name='task[due_on]' value=$task_data.due_on id=taskDueOn}
+  {/wrap}
+  </div>
+
+<div class="col" style="width:15%;">
+  {wrap field=reminder}
+    {label for=taskreminder}Reminder{/label}
+    {select_date name='task[reminder]' value=$task_data.reminder id=taskReminder onchange="setHour()"}
+  {/wrap}
+  </div>
+
+<div class="col" style="width:18%;">
+  {wrap field=time}
+    {label for=taskremindertime}Time{/label}
+    <select name="task[reminderhours]" style="width:50px;">
+        <option value=""></option>
+        {section name=hour start=1 loop=13}
+            <option value="{$smarty.section.hour.index}" {if $smarty.section.hour.index==$task_data.reminderhours}selected{/if}>{$smarty.section.hour.index}</option>
+        {/section}
+    </select>:<input type="hidden" name="task[reminderminutes]" value="0"/>00<!-- select name="task[reminderminutes]" style="width:50px;">
+        <option value=""></option>
+        {section name=minute start=0 loop=60}
+            <option value="{$smarty.section.minute.index}" {if $smarty.section.minute.index==$task_data.reminderminutes}selected{/if}>{$smarty.section.minute.index}</option>
+        {/section}
+    </select//--><select name="task[remindermeridian]" style="width:50px;">
+        <option value="AM" {if 'AM'==$task_data.remindermeridian}selected{/if}>AM</option>
+        <option value="PM" {if 'PM'==$task_data.remindermeridian}selected{/if}>PM</option>
+    </select>
+  {/wrap}
+</div>
+<div class="col" style="width:10%;">
+  {wrap field=email}
+    {label for=taskemail}Email{/label}
+	{*}BOF:mod 20120703 <input type="checkbox" name="task[email_flag]" value="1" style="width:20px;" /> Yes EOF:mod 20120703{*}
+	{*}BOF:mod 20120703{*}
+	<input type="checkbox" name="task[email_flag]" {if $task_data.auto_email_status=='1'}checked{/if} value="1" style="width:20px;" /> Yes
+	{*}EOF:mod 20120703{*}
+  {/wrap}
+</div>
+
+  <div class="col" style="width:37%;">
+  {wrap field=recurring}
+    {label for=taskDueOn}Recurring{/label}
+    <input type="radio" name="task[recurring_flag]" value="1" style="width:15px;" {if $task_data.recurring_flag=='1'}checked{/if} onclick="on_recurring_flag_selected(this);" />Yes
+    <input type="radio" name="task[recurring_flag]" value="0" style="width:15px;" {if $task_data.recurring_flag=='0'}checked{/if} onclick="on_recurring_flag_selected(this);" />No
+    <div id="recurring_params" {if $task_data.recurring_flag=='0'}style="visibility:hidden;"{/if}>
+    {label for=taskDueOn}Frequency{/label}
+    <input type="text" name="task[recurring_period]" maxlength="3" value="{$task_data.recurring_period}" style="width:25px;" />
+    <input type="radio" name="task[recurring_period_type]" value="D" style="width:15px;" {if $task_data.recurring_period_type=='D'}checked{/if} />Day(s)
+    <input type="radio" name="task[recurring_period_type]" value="W" style="width:15px;" {if $task_data.recurring_period_type=='W'}checked{/if}  />Week(s)
+    <input type="radio" name="task[recurring_period_type]" value="M" style="width:15px;" {if $task_data.recurring_period_type=='M'}checked{/if}  />Month(s)
+    <br/>
+    <input type="radio" name="task[recurring_period_condition]" value="after_due_date" style="width:15px;" {if $task_data.recurring_period_condition=='after_due_date'}checked{/if} />After Due Date or
+    <input type="radio" name="task[recurring_period_condition]" value="after_task_complete" style="width:15px;" {if $task_data.recurring_period_condition=='after_task_complete'}checked{/if} />After Task is Completed
+    {label for=taskRecurringEndDate}End Date{/label}
+    {select_date name='task[recurring_end_date]' value=$task_data.recurring_end_date id=taskRecurringEndDate}
+    </div>
+  {/wrap}
+  </div>
+
+  <div class="col" style="width:100%;display:block;">
+  {wrap field=assignees}
+    {label for=taskAssignees}Assignees{/label}
+    {select_assignees name='task[assignees]' value=$task_data.assignees object=$active_task project=$active_project}
+    <div class="clear"></div>
+  {/wrap}
+  </div>
+  
+
+  <div class="clear"></div>
+</div>

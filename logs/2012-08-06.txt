@@ -1,0 +1,637 @@
+Logged on: Monday, 06-Aug-12 12:31:15 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages_add assembled
+#49 - info - Event 'on_before_object_validation' triggered
+#50 - info - Event 'on_after_object_validation' triggered
+#51 - error - [Catchable Fatal Error] Object of class ValidationErrors could not be converted to string (in /home/ffbhpro/public_html/activecollab/application/modules/pages/controllers/PagesController.class.php on 915)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages_add assembled
+
+======================================================
+
+Logged on: Monday, 06-Aug-12 10:14:19 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_people assembled
+#46 - info - Route project_people_add assembled
+#47 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 50)
+#48 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 54)
+#49 - info - Event 'on_before_object_validation' triggered
+#50 - info - Event 'on_after_object_validation' triggered
+#51 - info - Route project_page assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_people assembled
+#35 - info - Route project_people_add assembled
+#36 - info - Route project_page assembled
+
+======================================================
+
+Logged on: Monday, 06-Aug-12 08:37:07 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_people assembled
+#46 - info - Route project_people_add assembled
+#47 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 50)
+#48 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 54)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_people assembled
+#35 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Monday, 06-Aug-12 08:35:44 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_people assembled
+#46 - info - Route project_people_add assembled
+#47 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 50)
+#48 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 54)
+#49 - info - Route people_company assembled
+#50 - info - Route people_company_user assembled
+#51 - info - Route people_company_user assembled
+#52 - info - Route project_user_view_allocations assembled
+#53 - info - Route project_remove_user assembled
+#54 - info - Route project_remove_user assembled
+#55 - info - Route goto_user_task_page assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_people assembled
+#35 - info - Route project_people_add assembled
+#36 - info - Route people_company assembled
+#37 - info - Route people_company_user assembled
+#38 - info - Route people_company_user assembled
+#39 - info - Route project_user_view_allocations assembled
+#40 - info - Route project_remove_user assembled
+#41 - info - Route project_remove_user assembled
+#42 - info - Route goto_user_task_page assembled
+
+======================================================
+
+Logged on: Monday, 06-Aug-12 08:35:23 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_people assembled
+#46 - info - Route project_people_add assembled
+#47 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 50)
+#48 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 54)
+#49 - info - Route people_company assembled
+#50 - info - Route people_company_user assembled
+#51 - info - Route people_company_user assembled
+#52 - info - Route project_user_view_allocations assembled
+#53 - info - Route project_remove_user assembled
+#54 - info - Route project_remove_user assembled
+#55 - info - Route goto_user_task_page assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_people assembled
+#35 - info - Route project_people_add assembled
+#36 - info - Route people_company assembled
+#37 - info - Route people_company_user assembled
+#38 - info - Route people_company_user assembled
+#39 - info - Route project_user_view_allocations assembled
+#40 - info - Route project_remove_user assembled
+#41 - info - Route project_remove_user assembled
+#42 - info - Route goto_user_task_page assembled
+
+======================================================
+
+Logged on: Monday, 06-Aug-12 08:32:13 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route people assembled
+#21 - info - Route people_companies_add assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route people assembled
+#19 - info - Route people_companies_add assembled
+
+======================================================
+

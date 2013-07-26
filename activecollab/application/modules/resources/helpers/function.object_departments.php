@@ -1,0 +1,53 @@
+<?php
+
+  /**
+   * object_departments helper
+   *
+   * @package activeCollab.modules.resources
+   * @subpackage helpers
+   */
+  
+  /**
+   * Render object assignees list
+   *
+   * @param array $params
+   * @param Smarty $smarty
+   * @return string
+   */
+  function smarty_function_object_departments($params, &$smarty) {
+  	$resp = '--';
+    $object = array_var($params, 'object');
+    if(!instance_of($object, 'ProjectObject')) {
+      return new InvalidParamError('object', $object, '$object is expected to be an instance of ProjectObject class', true);
+    } // if
+    
+    $link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+    mysql_select_db(DB_NAME, $link);
+    $query = "select a.category_name, a.id from 
+			 healingcrystals_project_milestone_categories a 
+			 inner join healingcrystals_project_object_categories b on b.category_id=a.id 
+			 inner join healingcrystals_project_objects c on c.id=b.object_id where 
+			 c.id='" . $object->getId() . "' order by a.category_name";
+	$result = mysql_query($query, $link);
+	if (mysql_num_rows($result)){
+		$resp = '';
+		while($info = mysql_fetch_assoc($result)){
+			if (instance_of($object, 'Milestone')){
+				$resp .= '<a href="' . assemble_url('project_milestones', array('project_id' => $object->getProjectId())) . '&category_id=' . $info['id'] . '">' . $info['category_name'] . '</a>, ';
+			} elseif (instance_of($object, 'Ticket')){
+				$resp .= '<a href="' . assemble_url('project_tickets', array('project_id' => $object->getProjectId())) . '&department_id=' . $info['id'] . '">' . $info['category_name'] . '</a>, ';
+			} elseif (instance_of($object, 'Page')){
+				$resp .= '<a href="' . assemble_url('project_pages', array('project_id' => $object->getProjectId())) . '&category_id=' . $info['id'] . '">' . $info['category_name'] . '</a>, ';
+			} else {
+				$resp .=  $info['category_name'] . ', ';
+			}
+		}
+		$resp = substr($resp, 0, -2);
+	}
+    mysql_close($link);
+
+      
+	return $resp;
+  } // smarty_function_object_assignees
+
+?>

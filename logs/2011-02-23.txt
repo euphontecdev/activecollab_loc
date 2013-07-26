@@ -1,0 +1,284 @@
+Logged on: Wednesday, 23-Feb-11 10:41:22 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_checklists assembled
+#34 - info - Route project_checklists_archive assembled
+#35 - info - Route project_checklists_add assembled
+#36 - info - Route project_checklist assembled
+#37 - error - [Notice] Undefined index:  show_only_tasks (in /home/ffbhpro/public_html/compile/%%EA^EA9^EA9B394A%%view.tpl.php on 5)
+#38 - info - Route people_company_user assembled
+#39 - info - Route project_checklist_edit assembled
+#40 - info - Route project_object_star assembled
+#41 - info - Route project_object_move assembled
+#42 - info - Route project_object_copy assembled
+#43 - info - Route project_object_trash assembled
+#44 - info - Route project_object_complete assembled
+#45 - info - Event 'on_project_object_options' triggered
+#46 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#47 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#48 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#49 - info - Route project_checklist_edit assembled
+#50 - info - Route project_object_complete assembled
+#51 - info - Route project_tasks_add assembled
+#52 - info - Route reminders_add assembled
+#53 - info - Route project_checklist_open_tasks assembled
+#54 - info - Event 'on_project_object_quick_options' triggered
+#55 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#56 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#57 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#58 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#59 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#60 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#61 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#62 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#63 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#64 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#65 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#66 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#67 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#68 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#69 - info - Route project_milestone assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_project_object_options' triggered
+#13 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#14 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#15 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#16 - info - Event 'on_project_object_quick_options' triggered
+#17 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#18 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#19 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#20 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#21 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_checklists assembled
+#23 - info - Route project_checklists_archive assembled
+#24 - info - Route project_checklists_add assembled
+#25 - info - Route project_checklist assembled
+#26 - info - Route people_company_user assembled
+#27 - info - Route project_checklist_edit assembled
+#28 - info - Route project_object_star assembled
+#29 - info - Route project_object_move assembled
+#30 - info - Route project_object_copy assembled
+#31 - info - Route project_object_trash assembled
+#32 - info - Route project_object_complete assembled
+#33 - info - Route project_checklist_edit assembled
+#34 - info - Route project_object_complete assembled
+#35 - info - Route project_tasks_add assembled
+#36 - info - Route reminders_add assembled
+#37 - info - Route project_checklist_open_tasks assembled
+#38 - info - Route project_milestone assembled
+
+======================================================
+
+Logged on: Wednesday, 23-Feb-11 10:40:52 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_checklists assembled
+#34 - info - Route project_checklists_archive assembled
+#35 - info - Route project_checklists_add assembled
+#36 - info - Route project_checklist assembled
+#37 - error - [Notice] Undefined index:  show_only_tasks (in /home/ffbhpro/public_html/compile/%%EA^EA9^EA9B394A%%view.tpl.php on 5)
+#38 - info - Route people_company_user assembled
+#39 - info - Route project_checklist_edit assembled
+#40 - info - Route project_object_star assembled
+#41 - info - Route project_object_move assembled
+#42 - info - Route project_object_copy assembled
+#43 - info - Route project_object_trash assembled
+#44 - info - Route project_object_complete assembled
+#45 - info - Event 'on_project_object_options' triggered
+#46 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#47 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#48 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#49 - info - Route project_checklist_edit assembled
+#50 - info - Route project_object_complete assembled
+#51 - info - Route project_tasks_add assembled
+#52 - info - Route reminders_add assembled
+#53 - info - Route project_checklist_open_tasks assembled
+#54 - info - Event 'on_project_object_quick_options' triggered
+#55 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#56 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#57 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#58 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#59 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#60 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#61 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#62 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#63 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#64 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#65 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#66 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#67 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#68 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#69 - info - Route project_milestone assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_project_object_options' triggered
+#13 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#14 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#15 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#16 - info - Event 'on_project_object_quick_options' triggered
+#17 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#18 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#19 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#20 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#21 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_checklists assembled
+#23 - info - Route project_checklists_archive assembled
+#24 - info - Route project_checklists_add assembled
+#25 - info - Route project_checklist assembled
+#26 - info - Route people_company_user assembled
+#27 - info - Route project_checklist_edit assembled
+#28 - info - Route project_object_star assembled
+#29 - info - Route project_object_move assembled
+#30 - info - Route project_object_copy assembled
+#31 - info - Route project_object_trash assembled
+#32 - info - Route project_object_complete assembled
+#33 - info - Route project_checklist_edit assembled
+#34 - info - Route project_object_complete assembled
+#35 - info - Route project_tasks_add assembled
+#36 - info - Route reminders_add assembled
+#37 - info - Route project_checklist_open_tasks assembled
+#38 - info - Route project_milestone assembled
+
+======================================================
+

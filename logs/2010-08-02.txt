@@ -1,0 +1,292 @@
+Logged on: Monday, 02-Aug-10 13:25:10 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.body) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.body) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 13:24:56 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.body) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.body) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 13:22:12 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.body) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.body) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 13:21:28 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.name) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: The used table type doesn't support FULLTEXT indexes
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND MATCH (healingcrystals_project_objects.name) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 10:31:26 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'organize'%' AND healingcrystals_project_objects.id = healingcrystals_search_inde' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_search_index.content)-1) like '%'organize'%' AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'organize'%' AND healingcrystals_project_objects.id = healingcrystals_search_inde' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_search_index.content)-1) like '%'organize'%' AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 10:29:41 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'organize'% AND healingcrystals_project_objects.id = healingcrystals_search_ind' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_search_index.content)-1) like %'organize'% AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'organize'% AND healingcrystals_project_objects.id = healingcrystals_search_ind' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_search_index.content)-1) like %'organize'% AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 10:17:38 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_sear' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND MATCH (substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_search_index.content)-1)) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_sear' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND MATCH (substr(healingcrystals_search_index.content, 1, locate('
+', healingcrystals_search_index.content)-1)) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+
+Logged on: Monday, 02-Aug-10 10:16:08 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'substr(content, 1, locate('
+', content)-1)) AGAINST ('organize' IN BOOLEAN MODE)' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND MATCH (substr(content, 1, locate('
+', content)-1)) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'substr(content, 1, locate('
+', content)-1)) AGAINST ('organize' IN BOOLEAN MODE)' at line 1
+(SELECT healingcrystals_project_objects.* FROM healingcrystals_project_objects, healingcrystals_search_index WHERE ((healingcrystals_project_objects.project_id = 2) OR (healingcrystals_project_objects.project_id = 40) OR (healingcrystals_project_objects.project_id = 53)) AND healingcrystals_project_objects.name is not null AND MATCH (substr(content, 1, locate('
+', content)-1)) AGAINST ('organize' IN BOOLEAN MODE) AND healingcrystals_project_objects.id = healingcrystals_search_index.object_id AND healingcrystals_search_index.type = 'ProjectObject' AND state >= '3' AND visibility >= '0' LIMIT 0, 5)
+
+======================================================
+

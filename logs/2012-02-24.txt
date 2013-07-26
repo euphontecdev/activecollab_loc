@@ -1,0 +1,104 @@
+Logged on: Friday, 24-Feb-12 15:46:18 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+
+======================================================
+
+Logged on: Friday, 24-Feb-12 15:46:18 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+
+======================================================
+

@@ -1,0 +1,45 @@
+{if $gettype=='projects'}
+    {foreach from=$projects item=project}
+    <option value="{$project->getId()}">{$project->getName()}</option>
+    {/foreach}
+{elseif $gettype=='tickets'}
+    {foreach from=$tickets item=ticket}
+    <option value="{$ticket->getId()}">{$ticket->getName()}</option>
+    {/foreach}
+{elseif $gettype=='action'}
+    {$link}
+{else}
+    <div>
+        <div style="width:75px;height:26px;float:left;display:inline;">Team</div>
+        <div style="float:right;display:inline;">
+            <select id="teams" onchange="get_projects_by_team_id('{$cur_project_id}', '{$cur_attachment_id}');">
+                <option value="">--Select Team--</option>
+                {foreach from=$teams key=team_id item=team_name}
+                <option value="{$team_id}">{$team_name}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+    <div>
+        <div id="projects" style="width:75px;height:26px;float:left;display:inline;">Project</div>
+        <div style="float:right;display:inline;">
+            <select id="projects" onchange="get_tickets_by_project_id('{$cur_project_id}', '{$cur_attachment_id}');">
+                <option value="">--Select Project--</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <div id="tickets" style="width:75px;height:26px;float:left;display:inline;">Ticket</div>
+        <div style="float:right;display:inline;">
+            <select id="tickets" >
+                <option value="">--Select Ticket--</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <div id="action" style="width:75px;height:26px;float:left;display:inline;">&nbsp;</div>
+        <div style="float:right;display:inline;height:26px;">
+            <input type="button" value="Copy" onclick="copy_attachment_to('{$cur_project_id}', '{$cur_attachment_id}')" style="width:100px;" />
+        </div>
+    </div>
+{/if}

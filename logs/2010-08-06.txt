@@ -1,0 +1,472 @@
+Logged on: Friday, 06-Aug-10 11:11:00 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route recent_pages assembled
+#30 - info - Route image_picker assembled
+#31 - info - Route project_milestones assembled
+#32 - info - Route project_milestones_add assembled
+#33 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/milestones/controllers/MilestonesController.class.php on 65)
+#34 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/milestones/controllers/MilestonesController.class.php on 69)
+#35 - info - Route project_milestone assembled
+#36 - info - Route project_milestones_mass_edit assembled
+#37 - info - Event 'on_milestone_objects' triggered
+#38 - info - Callback 'checklists_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#39 - info - Callback 'discussions_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#40 - info - Callback 'files_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#41 - info - Callback 'pages_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#42 - info - Callback 'tickets_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#43 - info - Event 'on_milestone_add_links' triggered
+#44 - info - Route project_checklists_add assembled
+#45 - info - Callback 'checklists_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#46 - info - Route project_discussions_add assembled
+#47 - info - Callback 'discussions_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#48 - info - Route project_files_upload assembled
+#49 - info - Callback 'files_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#50 - info - Route project_pages_add assembled
+#51 - info - Callback 'pages_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#52 - info - Route project_tickets_add assembled
+#53 - info - Callback 'tickets_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#54 - info - Route people_company_user assembled
+#55 - info - Route project_milestone_edit assembled
+#56 - info - Route project_object_lock assembled
+#57 - info - Route project_object_star assembled
+#58 - info - Route project_object_move assembled
+#59 - info - Route project_object_copy assembled
+#60 - info - Route project_object_trash assembled
+#61 - info - Route project_object_complete assembled
+#62 - info - Route project_object_subscribe assembled
+#63 - info - Route project_object_subscriptions assembled
+#64 - info - Event 'on_project_object_options' triggered
+#65 - info - Route project_milestone_reschedule assembled
+#66 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#67 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#68 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#69 - info - Route project_milestone_edit assembled
+#70 - info - Route project_object_complete assembled
+#71 - info - Route project_object_subscribe assembled
+#72 - info - Route reminders_add assembled
+#73 - info - Event 'on_project_object_quick_options' triggered
+#74 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#75 - info - Route project_milestone_reschedule assembled
+#76 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#77 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#78 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#79 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#80 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#81 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#82 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#83 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#84 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#85 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#86 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#87 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#88 - info - Route project_tag assembled
+#89 - info - Route project_tag assembled
+#90 - info - Route project_object_star assembled
+#91 - info - Route project_ticket assembled
+#92 - info - Route people_company_user assembled
+#93 - info - Route project_overview assembled
+#94 - info - Route project_object_star assembled
+#95 - info - Route project_ticket assembled
+#96 - info - Route people_company_user assembled
+#97 - info - Route project_object_star assembled
+#98 - info - Route project_ticket assembled
+#99 - info - Route people_company_user assembled
+#100 - info - Route project_object_star assembled
+#101 - info - Route project_ticket assembled
+#102 - info - Route people_company_user assembled
+#103 - info - Route project_object_star assembled
+#104 - info - Route project_ticket assembled
+#105 - info - Route people_company_user assembled
+#106 - info - Route project_object_star assembled
+#107 - info - Route project_ticket assembled
+#108 - info - Route people_company_user assembled
+#109 - info - Route people_company_user assembled
+#110 - info - Route people_company_user assembled
+#111 - info - Route people_company_user assembled
+#112 - info - Route people_company_user assembled
+#113 - info - Route people_company_user assembled
+#114 - info - Route people_company_user assembled
+#115 - info - Route object_subscribers_widget assembled
+#116 - info - Route project_object_subscriptions assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_milestone_objects' triggered
+#13 - info - Callback 'checklists_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#14 - info - Callback 'discussions_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#15 - info - Callback 'files_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#16 - info - Callback 'pages_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#17 - info - Callback 'tickets_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#18 - info - Event 'on_milestone_add_links' triggered
+#19 - info - Callback 'checklists_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#20 - info - Callback 'discussions_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#21 - info - Callback 'files_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#22 - info - Callback 'pages_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#23 - info - Callback 'tickets_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#24 - info - Event 'on_project_object_options' triggered
+#25 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#26 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#27 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#28 - info - Event 'on_project_object_quick_options' triggered
+#29 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#30 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#31 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#32 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#33 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route recent_pages assembled
+#19 - info - Route image_picker assembled
+#20 - info - Route project_milestones assembled
+#21 - info - Route project_milestones_add assembled
+#22 - info - Route project_milestone assembled
+#23 - info - Route project_milestones_mass_edit assembled
+#24 - info - Route project_checklists_add assembled
+#25 - info - Route project_discussions_add assembled
+#26 - info - Route project_files_upload assembled
+#27 - info - Route project_pages_add assembled
+#28 - info - Route project_tickets_add assembled
+#29 - info - Route people_company_user assembled
+#30 - info - Route project_milestone_edit assembled
+#31 - info - Route project_object_lock assembled
+#32 - info - Route project_object_star assembled
+#33 - info - Route project_object_move assembled
+#34 - info - Route project_object_copy assembled
+#35 - info - Route project_object_trash assembled
+#36 - info - Route project_object_complete assembled
+#37 - info - Route project_object_subscribe assembled
+#38 - info - Route project_object_subscriptions assembled
+#39 - info - Route project_milestone_reschedule assembled
+#40 - info - Route project_milestone_edit assembled
+#41 - info - Route project_object_complete assembled
+#42 - info - Route project_object_subscribe assembled
+#43 - info - Route reminders_add assembled
+#44 - info - Route project_milestone_reschedule assembled
+#45 - info - Route project_tag assembled
+#46 - info - Route project_tag assembled
+#47 - info - Route project_object_star assembled
+#48 - info - Route project_ticket assembled
+#49 - info - Route people_company_user assembled
+#50 - info - Route project_overview assembled
+#51 - info - Route project_object_star assembled
+#52 - info - Route project_ticket assembled
+#53 - info - Route people_company_user assembled
+#54 - info - Route project_object_star assembled
+#55 - info - Route project_ticket assembled
+#56 - info - Route people_company_user assembled
+#57 - info - Route project_object_star assembled
+#58 - info - Route project_ticket assembled
+#59 - info - Route people_company_user assembled
+#60 - info - Route project_object_star assembled
+#61 - info - Route project_ticket assembled
+#62 - info - Route people_company_user assembled
+#63 - info - Route project_object_star assembled
+#64 - info - Route project_ticket assembled
+#65 - info - Route people_company_user assembled
+#66 - info - Route people_company_user assembled
+#67 - info - Route people_company_user assembled
+#68 - info - Route people_company_user assembled
+#69 - info - Route people_company_user assembled
+#70 - info - Route people_company_user assembled
+#71 - info - Route people_company_user assembled
+#72 - info - Route object_subscribers_widget assembled
+#73 - info - Route project_object_subscriptions assembled
+
+======================================================
+
+Logged on: Friday, 06-Aug-10 11:10:25 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route recent_pages assembled
+#30 - info - Route image_picker assembled
+#31 - info - Route project_milestones assembled
+#32 - info - Route project_milestones_add assembled
+#33 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/milestones/controllers/MilestonesController.class.php on 65)
+#34 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/milestones/controllers/MilestonesController.class.php on 69)
+#35 - info - Route project_milestone assembled
+#36 - info - Route project_milestones_mass_edit assembled
+#37 - info - Event 'on_milestone_objects' triggered
+#38 - info - Callback 'checklists_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#39 - info - Callback 'discussions_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#40 - info - Callback 'files_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#41 - info - Callback 'pages_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#42 - info - Callback 'tickets_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#43 - info - Event 'on_milestone_add_links' triggered
+#44 - info - Route project_checklists_add assembled
+#45 - info - Callback 'checklists_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#46 - info - Route project_discussions_add assembled
+#47 - info - Callback 'discussions_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#48 - info - Route project_files_upload assembled
+#49 - info - Callback 'files_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#50 - info - Route project_pages_add assembled
+#51 - info - Callback 'pages_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#52 - info - Route project_tickets_add assembled
+#53 - info - Callback 'tickets_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#54 - info - Route people_company_user assembled
+#55 - info - Route project_milestone_edit assembled
+#56 - info - Route project_object_lock assembled
+#57 - info - Route project_object_star assembled
+#58 - info - Route project_object_move assembled
+#59 - info - Route project_object_copy assembled
+#60 - info - Route project_object_trash assembled
+#61 - info - Route project_object_complete assembled
+#62 - info - Route project_object_subscribe assembled
+#63 - info - Route project_object_subscriptions assembled
+#64 - info - Event 'on_project_object_options' triggered
+#65 - info - Route project_milestone_reschedule assembled
+#66 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#67 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#68 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#69 - info - Route project_milestone_edit assembled
+#70 - info - Route project_object_complete assembled
+#71 - info - Route project_object_subscribe assembled
+#72 - info - Route reminders_add assembled
+#73 - info - Event 'on_project_object_quick_options' triggered
+#74 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#75 - info - Route project_milestone_reschedule assembled
+#76 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#77 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#78 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#79 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#80 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#81 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#82 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#83 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#84 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#85 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#86 - error - [Notice] Undefined index:  method (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#87 - error - [Notice] Undefined index:  confirm (in /home/ffbhpro/public_html/compile/%%30^306^30655A41%%_object_quick_options.tpl.php on 11)
+#88 - info - Route project_tag assembled
+#89 - info - Route project_tag assembled
+#90 - info - Route project_object_star assembled
+#91 - info - Route project_ticket assembled
+#92 - info - Route people_company_user assembled
+#93 - info - Route project_overview assembled
+#94 - info - Route project_object_star assembled
+#95 - info - Route project_ticket assembled
+#96 - info - Route people_company_user assembled
+#97 - info - Route project_object_star assembled
+#98 - info - Route project_ticket assembled
+#99 - info - Route people_company_user assembled
+#100 - info - Route project_object_star assembled
+#101 - info - Route project_ticket assembled
+#102 - info - Route people_company_user assembled
+#103 - info - Route project_object_star assembled
+#104 - info - Route project_ticket assembled
+#105 - info - Route people_company_user assembled
+#106 - info - Route project_object_star assembled
+#107 - info - Route project_ticket assembled
+#108 - info - Route people_company_user assembled
+#109 - info - Route people_company_user assembled
+#110 - info - Route people_company_user assembled
+#111 - info - Route people_company_user assembled
+#112 - info - Route people_company_user assembled
+#113 - info - Route people_company_user assembled
+#114 - info - Route people_company_user assembled
+#115 - info - Route object_subscribers_widget assembled
+#116 - info - Route project_object_subscriptions assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_milestone_objects' triggered
+#13 - info - Callback 'checklists_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#14 - info - Callback 'discussions_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#15 - info - Callback 'files_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#16 - info - Callback 'pages_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#17 - info - Callback 'tickets_handle_on_milestone_objects' called for 'on_milestone_objects'. Execution result: NULL
+#18 - info - Event 'on_milestone_add_links' triggered
+#19 - info - Callback 'checklists_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#20 - info - Callback 'discussions_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#21 - info - Callback 'files_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#22 - info - Callback 'pages_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#23 - info - Callback 'tickets_handle_on_milestone_add_links' called for 'on_milestone_add_links'. Execution result: NULL
+#24 - info - Event 'on_project_object_options' triggered
+#25 - info - Callback 'milestones_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#26 - info - Callback 'discussions_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#27 - info - Callback 'pages_handle_on_project_object_options' called for 'on_project_object_options'. Execution result: NULL
+#28 - info - Event 'on_project_object_quick_options' triggered
+#29 - info - Callback 'system_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#30 - info - Callback 'milestones_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#31 - info - Callback 'discussions_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#32 - info - Callback 'files_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+#33 - info - Callback 'pages_handle_on_project_object_quick_options' called for 'on_project_object_quick_options'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route recent_pages assembled
+#19 - info - Route image_picker assembled
+#20 - info - Route project_milestones assembled
+#21 - info - Route project_milestones_add assembled
+#22 - info - Route project_milestone assembled
+#23 - info - Route project_milestones_mass_edit assembled
+#24 - info - Route project_checklists_add assembled
+#25 - info - Route project_discussions_add assembled
+#26 - info - Route project_files_upload assembled
+#27 - info - Route project_pages_add assembled
+#28 - info - Route project_tickets_add assembled
+#29 - info - Route people_company_user assembled
+#30 - info - Route project_milestone_edit assembled
+#31 - info - Route project_object_lock assembled
+#32 - info - Route project_object_star assembled
+#33 - info - Route project_object_move assembled
+#34 - info - Route project_object_copy assembled
+#35 - info - Route project_object_trash assembled
+#36 - info - Route project_object_complete assembled
+#37 - info - Route project_object_subscribe assembled
+#38 - info - Route project_object_subscriptions assembled
+#39 - info - Route project_milestone_reschedule assembled
+#40 - info - Route project_milestone_edit assembled
+#41 - info - Route project_object_complete assembled
+#42 - info - Route project_object_subscribe assembled
+#43 - info - Route reminders_add assembled
+#44 - info - Route project_milestone_reschedule assembled
+#45 - info - Route project_tag assembled
+#46 - info - Route project_tag assembled
+#47 - info - Route project_object_star assembled
+#48 - info - Route project_ticket assembled
+#49 - info - Route people_company_user assembled
+#50 - info - Route project_overview assembled
+#51 - info - Route project_object_star assembled
+#52 - info - Route project_ticket assembled
+#53 - info - Route people_company_user assembled
+#54 - info - Route project_object_star assembled
+#55 - info - Route project_ticket assembled
+#56 - info - Route people_company_user assembled
+#57 - info - Route project_object_star assembled
+#58 - info - Route project_ticket assembled
+#59 - info - Route people_company_user assembled
+#60 - info - Route project_object_star assembled
+#61 - info - Route project_ticket assembled
+#62 - info - Route people_company_user assembled
+#63 - info - Route project_object_star assembled
+#64 - info - Route project_ticket assembled
+#65 - info - Route people_company_user assembled
+#66 - info - Route people_company_user assembled
+#67 - info - Route people_company_user assembled
+#68 - info - Route people_company_user assembled
+#69 - info - Route people_company_user assembled
+#70 - info - Route people_company_user assembled
+#71 - info - Route people_company_user assembled
+#72 - info - Route object_subscribers_widget assembled
+#73 - info - Route project_object_subscriptions assembled
+
+======================================================
+

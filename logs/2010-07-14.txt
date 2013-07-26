@@ -1,0 +1,15 @@
+Logged on: Wednesday, 14-Jul-10 15:13:39 GMT
+Available groups: all, sql
+
+all:
+
+#1 - error - SQL error. MySQL said: Table 'ffbhpro_ac.healingcrystals_modules' doesn't exist
+(SELECT * FROM `healingcrystals_modules`    ORDER BY is_system DESC, position )
+
+sql
+
+#1 - error - SQL error. MySQL said: Table 'ffbhpro_ac.healingcrystals_modules' doesn't exist
+(SELECT * FROM `healingcrystals_modules`    ORDER BY is_system DESC, position )
+
+======================================================
+

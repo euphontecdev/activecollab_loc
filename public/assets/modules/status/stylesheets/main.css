@@ -1,0 +1,156 @@
+/** Top links **/
+
+#status_updates_dialog #status_update_top {
+  zoom: 1;
+  overflow: hidden;
+}
+
+#status_updates_dialog .dialog_title {
+  margin-top: 0px;
+  float: left;
+  font-weight: bold;
+}
+
+#status_updates_dialog ul.status_update_top_links {
+  margin: -2px 0px 5px;
+  padding: 0px;
+  list-style: none;
+  float: right;
+}
+
+#status_updates_dialog ul.status_update_top_links li {
+  display: block;
+  color: #666;
+  font-size: 11px;
+  line-height: 16px;
+  vertical-align: middle;
+  float: left;
+  width: 20px;
+  height: 16px;
+}
+
+#status_updates_dialog ul.status_update_top_links li a img {
+  vertical-align: middle;
+}
+
+#status_updates_dialog ul.status_update_top_links .first {
+  padding-right: 5px;
+  width: 100px;
+  text-align: right;
+  line-height: 16px;
+}
+
+/** Table wrapper and messages **/
+
+#status_updates_dialog div.table_wrapper {
+	height: 250px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+* html #status_updates_dialog div.table_wrapper {
+  width: 342px;
+  *padding-right: 20px;
+}
+
+html>body #status_updates_dialog div.table_wrapper {
+  *padding-right: 20px;
+}
+
+/** Messages **/
+
+table.status_updates td {
+  padding: 5px;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+
+table.status_updates td.avatar {
+  width: 40px;
+}
+
+table.status_updates td.message p.message {
+  margin: 5px 0 0px 0;
+  overflow: hidden;
+}
+
+div.status_update_replies p.replies {
+  font-weight: bolder;
+}
+
+table.status_update_replies {
+  margin-top: 8px;
+}
+
+table.status_update_replies td {
+  padding: 5px;
+  vertical-align: middle;
+  background: #f7f6eb;
+  border: 0px;
+  border-bottom: 2px solid #FFF;
+  font-size: 11px;
+}
+
+table.status_update_replies td.avatar {
+  width: 16px;
+}
+
+table.status_update_replies tr.status_update_reply_textarea {
+  display: none;
+}
+
+table.status_update_replies tr.status_update_reply_textarea textarea {
+  height: 30px;
+  width: 448px;
+  color: #999;
+  font-size: 11px;
+}
+
+/** Post message form **/
+
+#status_updates_dialog #add_status_message textarea {
+  height: 40px;
+  width: 562px;
+  color: #999;
+  font-size: 11px;
+}
+
+#status_updates_dialog #add_status_message textarea.focused {
+  color: #333;
+}
+
+/** View Message **/
+
+#status_update_details a.avatar {
+  float: left;
+}
+
+#status_update_details p.message {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 2px;
+  display: block;
+}
+
+#status_update_details .details.block {
+  display: block;
+  margin-left: 50px;
+}
+
+#status_update_details table.status_update_replies {
+  width: 610px;
+  margin-left: 50px;
+}
+
+#status_update_details tr.status_update_reply textarea {
+  height: 40px;
+  width: 562px;
+  color: #999;
+  font-size: 11px;
+}
+
+#status_update_details tr.status_update_reply textarea.focused {
+  color: #333;
+}

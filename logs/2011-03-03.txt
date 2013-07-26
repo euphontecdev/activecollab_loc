@@ -1,0 +1,16 @@
+Logged on: Thursday, 03-Mar-11 23:46:21 GMT
+Available groups: all, sql
+
+all:
+
+#1 - error - [Notice] Undefined index:  SCRIPT_NAME (in /home/ffbhpro/public_html/activecollab/angie/classes/smarty/Smarty.class.php on 571)
+#2 - error - SQL error. MySQL said: Lock wait timeout exceeded; try restarting transaction
+(DELETE FROM healingcrystals_user_sessions WHERE expires_on < '2011-03-03 23:45:25')
+
+sql
+
+#1 - error - SQL error. MySQL said: Lock wait timeout exceeded; try restarting transaction
+(DELETE FROM healingcrystals_user_sessions WHERE expires_on < '2011-03-03 23:45:25')
+
+======================================================
+

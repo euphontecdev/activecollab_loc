@@ -1,0 +1,1572 @@
+Logged on: Monday, 20-Aug-12 06:21:01 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '31', 'Kavita Aggarwal', 'office@focusindia.com', '2012-08-20 06:21:01'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '31', 'Kavita Aggarwal', 'office@focusindia.com', '2012-08-20 06:21:01'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:39:03 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26136-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26136', 'Becky Peak-Marquez - Task List', '<p>Becky Peak-Marquez - Task List</p><p> </p><p>I have now moved the tasks/projects from this &quot;Page&quot; to now be listed as individual Tasks on this Page (below).</p><p> </p><p>NOTE: If you would like to see what was on this page previously, you can View a prior Version of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:39:03'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26136-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26136', 'Becky Peak-Marquez - Task List', '<p>Becky Peak-Marquez - Task List</p><p> </p><p>I have now moved the tasks/projects from this &quot;Page&quot; to now be listed as individual Tasks on this Page (below).</p><p> </p><p>NOTE: If you would like to see what was on this page previously, you can View a prior Version of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:39:03'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:19:06 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:19:06'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:19:06'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:12:57 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:12:57'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:12:57'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:12:48 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:12:48'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:12:48'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:12:04 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:12:04'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:12:04'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:11:40 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:11:40'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-2' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen\'s Task List', '<p><strong><span style=\"font-size:large;\">Meeting with Shawn &amp; Donna <span style=\"color:#ff0000;\">at 4pm Tuesday, July 17, 2012</span></span></strong></p><p> </p><p><strong>DISCUSSION ITEMS   </strong>(Shawn\'s comments in <span style=\"color:#0000ff;\">blue </span>and Donna\'s comments in <span style=\"color:#ff0000;\">red</span>)<strong><br />\n<br />\n</strong></p><p><strong>1. Order from Vendors</strong></p><ul><li>Vision Industries - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\"> </span><span style=\"color:#33cccc;\">Sent 6/26 - <span style=\"color:#0000ff;\">Order received 7/18</span></span><br />\n<br />\n</span></li><li>Copper City - <span style=\"color:#ff0000;\">order placed 6/19</span> - <span style=\"color:#0000ff;\">Does not have anything we asked for on our order</span> 7/18<br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=67\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=67</a></li><li>Larimar - <span style=\"color:#0000ff;\"><span style=\"color:#ff0000;\">ordered from both suppliers</span> - <span style=\"color:#33cccc;\">on its way 6/26 -<span style=\"color:#0000ff;\">Order here and in inventory</span></span><br />\n<br />\n</span></li><li>Gemological Center- <span style=\"color:#33cccc;\">order sent</span></li><li><span style=\"color:#3366ff;\">Hi Donna,</span><div><span style=\"color:#3366ff;\">I just saw this email. We have Phenakite and the Imperial Topaz for sure. We will be in Tucson within a month and I can tell</span></div><div><span style=\"color:#3366ff;\">you  the quantities that we can supply as soon as I get there. Sorry for the  delay. The best email to reach me is lucianadb@hotmail.com</span></div><div><span style=\"color:#3366ff;\">Have a great weekend!</span></div><span style=\"color:#3366ff;\">Luciana</span><br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=195\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=195</a></li><li></li><li>Norcross Madagascar -<span style=\"color:#ff0000;\"> ordered 6/19 </span><span style=\"color:#0000ff;\"> - </span><span style=\"color:#33cccc;\">on its way</span> - <span style=\"color:#0000ff;\">order is here and worksheeted</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=103\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=103</a></li><li>Peru Minerals - <span style=\"color:#ff0000;\">order placed </span><span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">3 weeks</span> - <span style=\"color:#0000ff;\">inquiry pending about shipping</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=145\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=145</a></li><li>Village Originals <span style=\"color:#0000ff;\"> - when will they ship?</span> <span style=\"color:#33cccc;\">order in progress</span> - <span style=\"color:#0000ff;\">order received. new order sent</span><br />\n<br />\n<a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=165\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=165</a></li><li>Midwest Minerals <span style=\"color:#0000ff;\">- call and ask them for a catalog and for items such as turquoise, chrsocolla, azurite, copper, apache tears, aragonite,  -<span style=\"color:#800000;\"> Try this Phone# and see if they are the company who displays &quot;in a Tent in Electric Park at the Tucson Show&quot;.<br />\n</span></span></li><li><span style=\"color:#0000ff;\"><span style=\"color:#800000;\"><span style=\"color:#000000;\">Quayside Publishing</span><br />\n</span></span><a href=\"https://www.healingcrystals.com/admin/suppliers_order.php?sID=194\">https://www.healingcrystals.com/admin/suppliers_order.php?sID=194</a> - <span style=\"color:#ff0000;\">order received and already in inventory</span></li></ul><p>4. Reconcile Worksheet pending report</p><p><span style=\"font-family:Arial;\"><a href=\"https://www.healingcrystals.com/admin/worksheet_pending_details.php\">https://www.healingcrystals.com/admin/worksheet_pending_details.php </a></span></p><p><span style=\"font-family:Arial;\"><span style=\"color:#ff0000;\">done and being re-checked frequently</span><br />\n</span></p><p> </p><p><strong>OLD BUSINESS</strong></p><p><strong><br />\n<br />\n</strong></p><p><strong>NEW BUSINESS</strong></p><ul><li>Review cycle of ordering and reordering an item and send me emails/notes with your suggestions -<span style=\"color:#33cccc;\"> need more input from you</span></li></ul><ul><li>Review out of stock report and discuss best way to reorder products in the future - <span style=\"color:#33cccc;\">let\'s meet about this</span></li></ul>', '2', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:11:40'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:10:05 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:10:05'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:10:05'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:09:50 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:09:50'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:09:50'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:09:18 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:09:18'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:09:18'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:08:00 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:08:00'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:08:00'))
+
+======================================================
+
+Logged on: Monday, 20-Aug-12 03:07:39 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route custom_tabs_manager assembled
+#9 - info - Route project_milestones_add assembled
+#10 - info - Route project_checklists_add assembled
+#11 - info - Route project_discussions_add assembled
+#12 - info - Route project_files_upload assembled
+#13 - info - Route project_pages_add assembled
+#14 - info - Route project_tickets_add assembled
+#15 - info - Route project_time_add assembled
+#16 - info - Route attachment_rename assembled
+#17 - info - Route attachment_copy_to assembled
+#18 - info - Route image_uploader assembled
+#19 - info - Route render_comments assembled
+#20 - info - Route projects assembled
+#21 - info - Route project_overview assembled
+#22 - info - Route project_overview assembled
+#23 - info - Event 'on_project_tabs' triggered
+#24 - info - Route project_milestones assembled
+#25 - info - Route project_tickets assembled
+#26 - info - Route project_pages assembled
+#27 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_checklists assembled
+#29 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#30 - info - Route project_discussions assembled
+#31 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#32 - info - Route attachments_list assembled
+#33 - info - Route project_files assembled
+#34 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#35 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#36 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#37 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#38 - info - Route project_time assembled
+#39 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#40 - info - Route project_people assembled
+#41 - info - Route recent_pages assembled
+#42 - info - Route reminders_list assembled
+#43 - info - Route project_calendar assembled
+#44 - info - Route image_picker assembled
+#45 - info - Route project_categories assembled
+#46 - info - Route project_category_add assembled
+#47 - info - Route project_pages assembled
+#48 - info - Route project_pages assembled
+#49 - info - Route project_page assembled
+#50 - info - Route project_pages_add assembled
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_insert' triggered
+#55 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#56 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:07:39'))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route custom_tabs_manager assembled
+#7 - info - Route project_milestones_add assembled
+#8 - info - Route project_checklists_add assembled
+#9 - info - Route project_discussions_add assembled
+#10 - info - Route project_files_upload assembled
+#11 - info - Route project_pages_add assembled
+#12 - info - Route project_tickets_add assembled
+#13 - info - Route project_time_add assembled
+#14 - info - Route attachment_rename assembled
+#15 - info - Route attachment_copy_to assembled
+#16 - info - Route image_uploader assembled
+#17 - info - Route render_comments assembled
+#18 - info - Route projects assembled
+#19 - info - Route project_overview assembled
+#20 - info - Route project_overview assembled
+#21 - info - Route project_milestones assembled
+#22 - info - Route project_tickets assembled
+#23 - info - Route project_pages assembled
+#24 - info - Route project_checklists assembled
+#25 - info - Route project_discussions assembled
+#26 - info - Route attachments_list assembled
+#27 - info - Route project_files assembled
+#28 - info - Route project_time assembled
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route project_calendar assembled
+#33 - info - Route image_picker assembled
+#34 - info - Route project_categories assembled
+#35 - info - Route project_category_add assembled
+#36 - info - Route project_pages assembled
+#37 - info - Route project_pages assembled
+#38 - info - Route project_page assembled
+#39 - info - Route project_pages_add assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Duplicate entry '26138-1' for key 1
+(INSERT INTO healingcrystals_page_versions (page_id, name, body, version, created_by_id, created_by_name, created_by_email, created_on) VALUES ('26138', 'Donna Kristiansen - Task List', '<p>Items on this &quot;Page&quot; have now been moved to be individual Tasks below</p><p>NOTE: To see the previous contents of this page, click below to see prior Versions of this Page.</p>', '1', '23', 'Shawn Adler', 'shawn@ffbh.org', '2012-08-20 03:07:39'))
+
+======================================================
+

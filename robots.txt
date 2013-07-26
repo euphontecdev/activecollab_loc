@@ -1,0 +1,11 @@
+# robots section:
+
+# block currencies for major engines which support wildcards:
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: *
+Disallow: /

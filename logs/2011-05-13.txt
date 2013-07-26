@@ -1,0 +1,1127 @@
+Logged on: Friday, 13-May-11 10:10:03 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6893, 1), (46, 6893, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6893, 1), (46, 6893, 0))
+
+======================================================
+
+Logged on: Friday, 13-May-11 10:07:42 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6892, 1), (46, 6892, 0), (31, 6892, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6892, 1), (46, 6892, 0), (31, 6892, 0))
+
+======================================================
+
+Logged on: Friday, 13-May-11 10:06:07 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6891, 1), (46, 6891, 0), (31, 6891, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6891, 1), (46, 6891, 0), (31, 6891, 0))
+
+======================================================
+
+Logged on: Friday, 13-May-11 10:02:28 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6890, 1), (46, 6890, 0), (31, 6890, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6890, 1), (46, 6890, 0), (31, 6890, 0))
+
+======================================================
+
+Logged on: Friday, 13-May-11 09:54:45 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6889, 1), (46, 6889, 0), (31, 6889, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6889, 1), (46, 6889, 0), (31, 6889, 0))
+
+======================================================
+
+Logged on: Friday, 13-May-11 09:51:58 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6888, 1), (46, 6888, 0), (31, 6888, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6888, 1), (46, 6888, 0), (31, 6888, 0))
+
+======================================================
+
+Logged on: Friday, 13-May-11 09:45:09 GMT
+Available groups: all, events, routing, sql
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route attachments_list assembled
+#19 - info - Route project_files assembled
+#20 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#21 - info - Route project_calendar assembled
+#22 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#23 - info - Route project_pages assembled
+#24 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#25 - info - Route project_tickets assembled
+#26 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#27 - info - Route project_time assembled
+#28 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#29 - info - Route project_people assembled
+#30 - info - Route recent_pages assembled
+#31 - info - Route reminders_list assembled
+#32 - info - Route image_picker assembled
+#33 - info - Route project_categories assembled
+#34 - info - Route project_category_add assembled
+#35 - info - Route project_tickets assembled
+#36 - info - Route project_tickets_archive assembled
+#37 - info - Route project_tickets_add assembled
+#38 - info - Route project_tickets_mass_edit assembled
+#39 - info - Event 'on_before_object_validation' triggered
+#40 - info - Event 'on_after_object_validation' triggered
+#41 - info - Event 'on_before_object_save' triggered
+#42 - info - Event 'on_before_object_insert' triggered
+#43 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#44 - info - Event 'on_object_inserted' triggered
+#45 - info - Event 'on_get_completable_project_object_types' triggered
+#46 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#47 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#48 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#49 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#50 - info - Event 'on_before_save_project' triggered
+#51 - info - Event 'on_before_object_validation' triggered
+#52 - info - Event 'on_after_object_validation' triggered
+#53 - info - Event 'on_before_object_save' triggered
+#54 - info - Event 'on_before_object_update' triggered
+#55 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#56 - info - Event 'on_object_updated' triggered
+#57 - info - Event 'on_after_object_save' triggered
+#58 - info - Event 'on_project_updated' triggered
+#59 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#60 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#61 - info - Event 'on_after_object_save' triggered
+#62 - info - Event 'on_before_object_validation' triggered
+#63 - info - Event 'on_after_object_validation' triggered
+#64 - info - Event 'on_before_object_save' triggered
+#65 - info - Event 'on_before_object_insert' triggered
+#66 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#67 - info - Event 'on_object_inserted' triggered
+#68 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#69 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#70 - info - Event 'on_after_object_save' triggered
+#71 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6887, 1), (46, 6887, 0), (31, 6887, 0))
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#12 - info - Event 'on_before_object_validation' triggered
+#13 - info - Event 'on_after_object_validation' triggered
+#14 - info - Event 'on_before_object_save' triggered
+#15 - info - Event 'on_before_object_insert' triggered
+#16 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#17 - info - Event 'on_object_inserted' triggered
+#18 - info - Event 'on_get_completable_project_object_types' triggered
+#19 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#20 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#21 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#22 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#23 - info - Event 'on_before_save_project' triggered
+#24 - info - Event 'on_before_object_validation' triggered
+#25 - info - Event 'on_after_object_validation' triggered
+#26 - info - Event 'on_before_object_save' triggered
+#27 - info - Event 'on_before_object_update' triggered
+#28 - info - Callback 'system_handle_on_before_object_update' called for 'on_before_object_update'. Execution result: NULL
+#29 - info - Event 'on_object_updated' triggered
+#30 - info - Event 'on_after_object_save' triggered
+#31 - info - Event 'on_project_updated' triggered
+#32 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#33 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#34 - info - Event 'on_after_object_save' triggered
+#35 - info - Event 'on_before_object_validation' triggered
+#36 - info - Event 'on_after_object_validation' triggered
+#37 - info - Event 'on_before_object_save' triggered
+#38 - info - Event 'on_before_object_insert' triggered
+#39 - info - Callback 'system_handle_on_before_object_insert' called for 'on_before_object_insert'. Execution result: NULL
+#40 - info - Event 'on_object_inserted' triggered
+#41 - info - Callback 'system_handle_project_task_status' called for 'on_object_inserted'. Execution result: NULL
+#42 - info - Callback 'checklists_handle_on_object_inserted' called for 'on_object_inserted'. Execution result: NULL
+#43 - info - Event 'on_after_object_save' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route attachments_list assembled
+#13 - info - Route project_files assembled
+#14 - info - Route project_calendar assembled
+#15 - info - Route project_pages assembled
+#16 - info - Route project_tickets assembled
+#17 - info - Route project_time assembled
+#18 - info - Route project_people assembled
+#19 - info - Route recent_pages assembled
+#20 - info - Route reminders_list assembled
+#21 - info - Route image_picker assembled
+#22 - info - Route project_categories assembled
+#23 - info - Route project_category_add assembled
+#24 - info - Route project_tickets assembled
+#25 - info - Route project_tickets_archive assembled
+#26 - info - Route project_tickets_add assembled
+#27 - info - Route project_tickets_mass_edit assembled
+
+sql
+
+#1 - error - SQL error. MySQL said: Column count doesn't match value count at row 1
+(INSERT INTO healingcrystals_assignments VALUES (33, 6887, 1), (46, 6887, 0), (31, 6887, 0))
+
+======================================================
+

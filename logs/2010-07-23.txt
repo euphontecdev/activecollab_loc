@@ -1,0 +1,1062 @@
+Logged on: Friday, 23-Jul-10 14:00:51 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/DashboardController.class.php on 576)
+#9 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/DashboardController.class.php on 576)
+#10 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/DashboardController.class.php on 577)
+#11 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/DashboardController.class.php on 580)
+#12 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/DashboardController.class.php on 585)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 12:39:02 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 485)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 10:36:45 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#36 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#41 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#42 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#43 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#44 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#45 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#46 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#47 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#48 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#49 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#50 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#51 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#52 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#53 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#54 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#55 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#56 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#57 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#58 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#59 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#60 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#61 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#62 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#63 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#64 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#65 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#66 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#67 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#68 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#69 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#70 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#71 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#72 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#73 - error - [Notice] Undefined index:  object_id (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#74 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 10:25:06 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 372)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:54:07 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:46:40 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined variable: result_1 (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 367)
+#36 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:46:03 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined variable: result_1 (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 367)
+#36 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:44:27 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined variable: result_1 (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 367)
+#36 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:40:50 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:39:40 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:37:30 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined variable: result_1 (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 367)
+#36 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:37:12 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined variable: result_1 (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 367)
+#36 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+
+Logged on: Friday, 23-Jul-10 09:34:15 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route image_picker assembled
+#30 - info - Route project_people assembled
+#31 - info - Route project_people_add assembled
+#32 - error - [Notice] Use of undefined constant DN_HOST - assumed 'DN_HOST' (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#33 - error - [Warning] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DN_HOST' (1) (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 349)
+#34 - error - [Warning] mysql_select_db(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 350)
+#35 - error - [Notice] Undefined variable: result_1 (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 367)
+#36 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#37 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#38 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#39 - error - [Warning] mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 368)
+#40 - error - [Warning] mysql_close(): supplied argument is not a valid MySQL-Link resource (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 373)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route image_picker assembled
+#19 - info - Route project_people assembled
+#20 - info - Route project_people_add assembled
+
+======================================================
+

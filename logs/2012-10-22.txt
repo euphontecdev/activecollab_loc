@@ -1,0 +1,216 @@
+Logged on: Monday, 22-Oct-12 13:41:00 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:59 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:57 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+
+Logged on: Monday, 22-Oct-12 13:40:56 GMT
+Available groups: all
+
+all:
+
+#1 - error - [Warning] mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) (in /home/ffbhpro/public_html/activecollab/angie/classes/database/DBConnection.class.php on 44)
+
+======================================================
+

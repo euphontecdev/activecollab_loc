@@ -1,0 +1,15 @@
+Logged on: Thursday, 16-Sep-10 05:35:07 GMT
+Available groups: all, events
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+======================================================
+

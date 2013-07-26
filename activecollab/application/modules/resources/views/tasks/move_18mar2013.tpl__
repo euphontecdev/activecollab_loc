@@ -1,0 +1,55 @@
+{if $move_mode}
+{$new_parent_url}
+{else}
+<style>
+	div#lineitem {ldelim}width:100px;float:left;margin-top:8px;{rdelim}
+	div#separator {ldelim}width:5px;float:left;margin-top:8px;{rdelim}
+	div#elem {ldelim}float:left;margin-left:10px;{rdelim}
+</style>
+<div>
+	<div id="lineitem">{lang}Projects{/lang}<span id="loader_team" /></div>
+	<div id="separator">:</div>
+	<div id="elem">
+		<select name="team">
+		{if is_foreachable($teams)}
+			{foreach from=$teams key=id item=name}
+			<option value="{$id}" {if $id==$active_project->getId()} selected="selected" {/if}>{$name}</option>
+			{/foreach}
+		{/if}
+		</select>
+	</div>
+</div>
+<div>
+	<div id="lineitem">{lang}Object Type{/lang}<span id="loader_type" /></div>
+	<div id="separator">:</div>
+	<div id="elem">
+		<select name="object_type">
+			<option value="">-- Select Object Type --</option>
+			<option value="page" {if $active_task_parent->getType()=='Page'} selected="selected" {/if}>Page</option>
+			<option value="milestone" {if $active_task_parent->getType()=='Milestone'} selected="selected" {/if}>{lang}Milestone{/lang}</option>
+			<option value="ticket" {if $active_task_parent->getType()=='Ticket'} selected="selected" {/if}>Ticket</option>
+		</select>
+	</div>
+</div>
+<div>
+	<div id="lineitem">{lang}Object List{/lang}<span id="loader_list" /></div>
+	<div id="separator">:</div>
+	<div id="elem">
+		<select name="object_id">
+			<option value="">-- Select Object --</option>
+		{if is_foreachable($listing)}
+			{foreach from=$listing item=object}
+			<option value="{$object->getId()}" {if $object->getId()==$task_parent_id} selected="selected" {/if}>{$object->getName()}</option>
+			{/foreach}
+		{/if}
+	</div>
+</div>
+<input type="hidden" name="project_id" value="{$active_project->getId()}" />
+<input type="hidden" name="task_id" value="{$active_task->getId()}" />
+<script type="text/javascript">
+	App.MoveTask.init();
+</script>
+<div id="goto_url" style="margin:10px 0 10px 0;text-align:center;visibility:hidden;">
+	Task moved: <a href="">View Task</a>
+</div>
+{/if}

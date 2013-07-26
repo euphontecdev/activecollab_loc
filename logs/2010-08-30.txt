@@ -1,0 +1,489 @@
+Logged on: Monday, 30-Aug-10 12:30:27 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects assembled
+#9 - info - Route project_overview assembled
+#10 - info - Route project_overview assembled
+#11 - info - Event 'on_project_tabs' triggered
+#12 - info - Route project_milestones assembled
+#13 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#14 - info - Route project_checklists assembled
+#15 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#16 - info - Route project_discussions assembled
+#17 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#18 - info - Route project_files assembled
+#19 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#20 - info - Route project_calendar assembled
+#21 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#22 - info - Route project_pages assembled
+#23 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#24 - info - Route project_tickets assembled
+#25 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#26 - info - Route project_time assembled
+#27 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#28 - info - Route project_people assembled
+#29 - info - Route recent_pages assembled
+#30 - info - Route image_picker assembled
+#31 - info - Route project_people assembled
+#32 - info - Route project_people_add assembled
+#33 - info - Route project_user_assigned_milestones assembled
+#34 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 50)
+#35 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 54)
+#36 - error - [Notice] Undefined index:  page_view (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 682)
+#37 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 683)
+#38 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/ProjectPeopleController.class.php on 684)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_project_tabs' triggered
+#4 - info - Callback 'milestones_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#5 - info - Callback 'checklists_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#6 - info - Callback 'discussions_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#7 - info - Callback 'files_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#8 - info - Callback 'calendar_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#9 - info - Callback 'pages_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#10 - info - Callback 'tickets_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+#11 - info - Callback 'timetracking_handle_on_project_tabs' called for 'on_project_tabs'. Execution result: NULL
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects assembled
+#7 - info - Route project_overview assembled
+#8 - info - Route project_overview assembled
+#9 - info - Route project_milestones assembled
+#10 - info - Route project_checklists assembled
+#11 - info - Route project_discussions assembled
+#12 - info - Route project_files assembled
+#13 - info - Route project_calendar assembled
+#14 - info - Route project_pages assembled
+#15 - info - Route project_tickets assembled
+#16 - info - Route project_time assembled
+#17 - info - Route project_people assembled
+#18 - info - Route recent_pages assembled
+#19 - info - Route image_picker assembled
+#20 - info - Route project_people assembled
+#21 - info - Route project_people_add assembled
+#22 - info - Route project_user_assigned_milestones assembled
+
+======================================================
+
+Logged on: Monday, 30-Aug-10 12:11:22 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route projects_add assembled
+#9 - info - Route view_projects_info assembled
+#10 - info - Route rss assembled
+#11 - info - Event 'on_dashboard_sections' triggered
+#12 - info - Route recent_activities assembled
+#13 - info - Route active_projects assembled
+#14 - info - Event 'on_get_completable_project_object_types' triggered
+#15 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#16 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#17 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#18 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#19 - info - Route late_today assembled
+#20 - info - Callback 'system_handle_on_dashboard_sections' called for 'on_dashboard_sections'. Execution result: NULL
+#21 - info - Event 'on_dashboard_important_section' triggered
+#22 - info - Callback 'resources_handle_on_dashboard_important_section' called for 'on_dashboard_important_section'. Execution result: NULL
+#23 - info - Route project_object_star assembled
+#24 - info - Route project_overview assembled
+#25 - info - Route people_company_user assembled
+#26 - info - Route project_ticket assembled
+#27 - info - Route project_object_star assembled
+#28 - info - Route people_company_user assembled
+#29 - info - Route project_ticket assembled
+#30 - info - Route project_object_star assembled
+#31 - info - Route people_company_user assembled
+#32 - info - Route project_ticket assembled
+#33 - info - Route project_object_star assembled
+#34 - info - Route people_company_user assembled
+#35 - info - Route project_ticket assembled
+#36 - info - Route project_comment assembled
+#37 - info - Route project_ticket assembled
+#38 - info - Route project_object_star assembled
+#39 - info - Route people_company_user assembled
+#40 - info - Route project_ticket assembled
+#41 - info - Route project_comment assembled
+#42 - info - Route project_ticket assembled
+#43 - info - Route project_object_star assembled
+#44 - info - Route people_company_user assembled
+#45 - info - Route project_ticket assembled
+#46 - info - Route project_comment assembled
+#47 - info - Route project_ticket assembled
+#48 - info - Route project_object_star assembled
+#49 - info - Route people_company_user assembled
+#50 - info - Route project_ticket assembled
+#51 - info - Route project_comment assembled
+#52 - info - Route project_ticket assembled
+#53 - info - Route project_object_star assembled
+#54 - info - Route people_company_user assembled
+#55 - info - Route project_ticket assembled
+#56 - info - Route project_comment assembled
+#57 - info - Route project_ticket assembled
+#58 - info - Route project_object_star assembled
+#59 - info - Route people_company_user assembled
+#60 - info - Route project_ticket assembled
+#61 - info - Route project_comment assembled
+#62 - info - Route project_ticket assembled
+#63 - info - Route project_object_star assembled
+#64 - info - Route people_company_user assembled
+#65 - info - Route project_ticket assembled
+#66 - info - Route project_object_star assembled
+#67 - info - Route people_company_user assembled
+#68 - info - Route project_ticket assembled
+#69 - info - Route project_object_star assembled
+#70 - info - Route people_company_user assembled
+#71 - info - Route project_ticket assembled
+#72 - info - Route project_comment assembled
+#73 - info - Route project_ticket assembled
+#74 - info - Route project_object_star assembled
+#75 - info - Route people_company_user assembled
+#76 - info - Route project_ticket assembled
+#77 - info - Route project_ticket assembled
+#78 - info - Route project_object_star assembled
+#79 - info - Route people_company_user assembled
+#80 - info - Route project_ticket assembled
+#81 - info - Route project_comment assembled
+#82 - info - Route project_ticket assembled
+#83 - info - Route project_object_star assembled
+#84 - info - Route people_company_user assembled
+#85 - info - Route project_ticket assembled
+#86 - info - Route project_comment assembled
+#87 - info - Route project_ticket assembled
+#88 - info - Route project_object_star assembled
+#89 - info - Route project_overview assembled
+#90 - info - Route people_company_user assembled
+#91 - info - Route project_ticket assembled
+#92 - info - Route project_comment assembled
+#93 - info - Route project_ticket assembled
+#94 - info - Route project_object_star assembled
+#95 - info - Route people_company_user assembled
+#96 - info - Route project_ticket assembled
+#97 - info - Route project_comment assembled
+#98 - info - Route project_ticket assembled
+#99 - info - Route project_object_star assembled
+#100 - info - Route people_company_user assembled
+#101 - info - Route project_ticket assembled
+#102 - info - Route project_comment assembled
+#103 - info - Route project_ticket assembled
+#104 - info - Route project_object_star assembled
+#105 - info - Route people_company_user assembled
+#106 - info - Route project_ticket assembled
+#107 - info - Route project_comment assembled
+#108 - info - Route project_ticket assembled
+#109 - info - Route project_object_star assembled
+#110 - info - Route people_company_user assembled
+#111 - info - Route project_ticket assembled
+#112 - info - Route project_comment assembled
+#113 - info - Route project_ticket assembled
+#114 - info - Route rss assembled
+#115 - error - [Warning] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for /home/ffbhpro/public_html/public/avatars/31.40x40.jpg (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/users/User.class.php on 980)
+#116 - info - Route people_company_user assembled
+#117 - info - Route admin assembled
+#118 - info - Route people_company_user assembled
+#119 - info - Route logout assembled
+#120 - info - Route logout assembled
+#121 - info - Route homepage assembled
+#122 - info - Event 'on_build_menu' triggered
+#123 - info - Route people assembled
+#124 - info - Route user_assigned_milestones assembled
+#125 - error - [Warning] Missing argument 4 for MenuItem::__construct(), called in /home/ffbhpro/public_html/activecollab/application/modules/system/handlers/on_build_menu.php on line 25 and defined (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/menu/MenuItem.class.php on 63)
+#126 - error - [Notice] Undefined variable: icon_url (in /home/ffbhpro/public_html/activecollab/application/modules/system/models/menu/MenuItem.class.php on 67)
+#127 - info - Route projects assembled
+#128 - info - Route user_today_page assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Event 'on_dashboard_sections' triggered
+#4 - info - Event 'on_get_completable_project_object_types' triggered
+#5 - info - Callback 'resources_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'task'
+#6 - info - Callback 'milestones_handle_register_milestone_type' called for 'on_get_completable_project_object_types'. Execution result: 'milestone'
+#7 - info - Callback 'checklists_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'checklist'
+#8 - info - Callback 'tickets_handle_on_get_completable_project_object_types' called for 'on_get_completable_project_object_types'. Execution result: 'ticket'
+#9 - info - Callback 'system_handle_on_dashboard_sections' called for 'on_dashboard_sections'. Execution result: NULL
+#10 - info - Event 'on_dashboard_important_section' triggered
+#11 - info - Callback 'resources_handle_on_dashboard_important_section' called for 'on_dashboard_important_section'. Execution result: NULL
+#12 - info - Event 'on_build_menu' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route projects_add assembled
+#7 - info - Route view_projects_info assembled
+#8 - info - Route rss assembled
+#9 - info - Route recent_activities assembled
+#10 - info - Route active_projects assembled
+#11 - info - Route late_today assembled
+#12 - info - Route project_object_star assembled
+#13 - info - Route project_overview assembled
+#14 - info - Route people_company_user assembled
+#15 - info - Route project_ticket assembled
+#16 - info - Route project_object_star assembled
+#17 - info - Route people_company_user assembled
+#18 - info - Route project_ticket assembled
+#19 - info - Route project_object_star assembled
+#20 - info - Route people_company_user assembled
+#21 - info - Route project_ticket assembled
+#22 - info - Route project_object_star assembled
+#23 - info - Route people_company_user assembled
+#24 - info - Route project_ticket assembled
+#25 - info - Route project_comment assembled
+#26 - info - Route project_ticket assembled
+#27 - info - Route project_object_star assembled
+#28 - info - Route people_company_user assembled
+#29 - info - Route project_ticket assembled
+#30 - info - Route project_comment assembled
+#31 - info - Route project_ticket assembled
+#32 - info - Route project_object_star assembled
+#33 - info - Route people_company_user assembled
+#34 - info - Route project_ticket assembled
+#35 - info - Route project_comment assembled
+#36 - info - Route project_ticket assembled
+#37 - info - Route project_object_star assembled
+#38 - info - Route people_company_user assembled
+#39 - info - Route project_ticket assembled
+#40 - info - Route project_comment assembled
+#41 - info - Route project_ticket assembled
+#42 - info - Route project_object_star assembled
+#43 - info - Route people_company_user assembled
+#44 - info - Route project_ticket assembled
+#45 - info - Route project_comment assembled
+#46 - info - Route project_ticket assembled
+#47 - info - Route project_object_star assembled
+#48 - info - Route people_company_user assembled
+#49 - info - Route project_ticket assembled
+#50 - info - Route project_comment assembled
+#51 - info - Route project_ticket assembled
+#52 - info - Route project_object_star assembled
+#53 - info - Route people_company_user assembled
+#54 - info - Route project_ticket assembled
+#55 - info - Route project_object_star assembled
+#56 - info - Route people_company_user assembled
+#57 - info - Route project_ticket assembled
+#58 - info - Route project_object_star assembled
+#59 - info - Route people_company_user assembled
+#60 - info - Route project_ticket assembled
+#61 - info - Route project_comment assembled
+#62 - info - Route project_ticket assembled
+#63 - info - Route project_object_star assembled
+#64 - info - Route people_company_user assembled
+#65 - info - Route project_ticket assembled
+#66 - info - Route project_ticket assembled
+#67 - info - Route project_object_star assembled
+#68 - info - Route people_company_user assembled
+#69 - info - Route project_ticket assembled
+#70 - info - Route project_comment assembled
+#71 - info - Route project_ticket assembled
+#72 - info - Route project_object_star assembled
+#73 - info - Route people_company_user assembled
+#74 - info - Route project_ticket assembled
+#75 - info - Route project_comment assembled
+#76 - info - Route project_ticket assembled
+#77 - info - Route project_object_star assembled
+#78 - info - Route project_overview assembled
+#79 - info - Route people_company_user assembled
+#80 - info - Route project_ticket assembled
+#81 - info - Route project_comment assembled
+#82 - info - Route project_ticket assembled
+#83 - info - Route project_object_star assembled
+#84 - info - Route people_company_user assembled
+#85 - info - Route project_ticket assembled
+#86 - info - Route project_comment assembled
+#87 - info - Route project_ticket assembled
+#88 - info - Route project_object_star assembled
+#89 - info - Route people_company_user assembled
+#90 - info - Route project_ticket assembled
+#91 - info - Route project_comment assembled
+#92 - info - Route project_ticket assembled
+#93 - info - Route project_object_star assembled
+#94 - info - Route people_company_user assembled
+#95 - info - Route project_ticket assembled
+#96 - info - Route project_comment assembled
+#97 - info - Route project_ticket assembled
+#98 - info - Route project_object_star assembled
+#99 - info - Route people_company_user assembled
+#100 - info - Route project_ticket assembled
+#101 - info - Route project_comment assembled
+#102 - info - Route project_ticket assembled
+#103 - info - Route rss assembled
+#104 - info - Route people_company_user assembled
+#105 - info - Route admin assembled
+#106 - info - Route people_company_user assembled
+#107 - info - Route logout assembled
+#108 - info - Route logout assembled
+#109 - info - Route homepage assembled
+#110 - info - Route people assembled
+#111 - info - Route user_assigned_milestones assembled
+#112 - info - Route projects assembled
+#113 - info - Route user_today_page assembled
+
+======================================================
+
+Logged on: Monday, 30-Aug-10 11:58:52 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route people assembled
+#9 - info - Route people_companies_add assembled
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route people assembled
+#7 - info - Route people_companies_add assembled
+
+======================================================
+
+Logged on: Monday, 30-Aug-10 11:45:32 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route people assembled
+#9 - info - Route people_companies_add assembled
+#10 - error - [Notice] Undefined index:  page_view (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 86)
+#11 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 87)
+#12 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 88)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route people assembled
+#7 - info - Route people_companies_add assembled
+
+======================================================
+
+Logged on: Monday, 30-Aug-10 11:42:30 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route people assembled
+#9 - info - Route people_companies_add assembled
+#10 - error - [Notice] Undefined index:  page_view (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 86)
+#11 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 87)
+#12 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 88)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route people assembled
+#7 - info - Route people_companies_add assembled
+
+======================================================
+
+Logged on: Monday, 30-Aug-10 11:40:09 GMT
+Available groups: all, events, routing
+
+all:
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+#3 - info - Route js_disabled assembled
+#4 - info - Route refresh_session assembled
+#5 - info - Route jump_to_project_widget assembled
+#6 - info - Route quick_add assembled
+#7 - info - Route image_picker assembled
+#8 - info - Route people assembled
+#9 - info - Route people_companies_add assembled
+#10 - error - [Notice] Undefined index:  page_view (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 86)
+#11 - error - [Notice] Undefined index:  order_by (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 87)
+#12 - error - [Notice] Undefined index:  sort_order (in /home/ffbhpro/public_html/activecollab/application/modules/system/controllers/PeopleController.class.php on 88)
+
+events
+
+#1 - info - Event 'on_before_init' triggered
+#2 - info - Event 'on_after_init' triggered
+
+routing
+
+#1 - info - Route js_disabled assembled
+#2 - info - Route refresh_session assembled
+#3 - info - Route jump_to_project_widget assembled
+#4 - info - Route quick_add assembled
+#5 - info - Route image_picker assembled
+#6 - info - Route people assembled
+#7 - info - Route people_companies_add assembled
+
+======================================================
+

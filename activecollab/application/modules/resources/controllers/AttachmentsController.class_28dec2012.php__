@@ -1,0 +1,330 @@
+<?php
+
+  // Foundation...
+  use_controller('application', SYSTEM_MODULE);
+
+  /**
+   * Attachments controller
+   *
+   * @package activeCollab.modules.resources
+   * @subpackage controllers
+   */
+  class AttachmentsController extends ApplicationController {
+    
+    /**
+     * Active module
+     *
+     * @var string
+     */
+    var $active_module = RESOURCES_MODULE;
+    
+    /**
+     * Selected attachment
+     *
+     * @var Attachment
+     */
+    var $active_attachment;
+    
+    /**
+     * API actions
+     *
+     * @var array
+     */
+    var $api_actions = 'view';
+  
+    /**
+     * Constructor
+     *
+     * @param Request $request
+     * @return AttachmentsController
+     */
+    function __construct($request) {
+      parent::__construct($request);
+            
+      $attachment_id = $this->request->getId('attachment_id');
+      if($attachment_id) {
+        $this->active_attachment = Attachments::findById($attachment_id);
+      } // if
+      
+      if(!instance_of($this->active_attachment, 'Attachment')) {
+        $this->active_attachment = new Attachment();
+      } // if
+      
+      $this->smarty->assign(array(
+        'active_attachment' => $this->active_attachment,
+      ));
+      
+    } // __construct
+    
+    /**
+     * View single attachment (basically, load it and forward it to the user)
+     *
+     * @param void
+     * @return null
+     */
+    function view() {
+      if($this->active_attachment->isNew()) {
+        $this->httpError(HTTP_ERR_NOT_FOUND);
+      } // if
+      
+      if(!$this->active_attachment->canView($this->logged_user)) {
+        $this->httpError(HTTP_ERR_FORBIDDEN);
+      } // if
+      
+      // Fix problem with non-ASCII characters in IE
+      $filename = $this->active_attachment->getName();
+      if(isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false) {
+        $filename = urlencode($filename);
+      } // if
+      
+      $as_attachment = $this->request->get('disposition', 'attachment') == 'attachment';
+      
+      download_file($this->active_attachment->getFilePath(), $this->active_attachment->getMimeType(), $filename, $as_attachment);
+      die();
+    } // view
+    
+    /**
+     * Show and process edit attachment form
+     *
+     * @param void
+     * @return null
+     */
+    function edit() {
+      $this->wireframe->print_button = false;
+      
+      if($this->active_attachment->isNew()) {
+        $this->httpError(HTTP_ERR_NOT_FOUND);
+      } // if
+      
+      $parent = $this->active_attachment->getParent();
+      if(!instance_of($parent, 'ProjectObject')) {
+        $this->httpError(HTTP_ERR_NOT_FOUND);
+      } // if
+      
+      $attachment_data = $this->request->post('attachment');
+      if(!is_array($attachment_data)) {
+        $attachment_data = array('name' => $this->active_attachment->getName());
+      } // if
+      
+      $this->smarty->assign('attachment_data', $attachment_data);
+      
+      if($this->request->isSubmitted()) {
+        db_begin_work();
+        
+        $old_name = $this->active_attachment->getName();
+        $this->active_attachment->setName(array_var($attachment_data, 'name'));
+        $save = $this->active_attachment->save();
+        
+        if($save && !is_error($save)) {
+          db_commit();
+          $this->active_attachment->ready();
+          
+          if($this->request->getFormat() == FORMAT_HTML) {
+            flash_success('File :filename has been updated', array('filename' => $old_name));
+            $this->redirectToUrl($parent->getViewUrl());
+          } else {
+            $this->serveData($this->active_attachment);
+          } // if
+        } else {
+          db_rollback();
+          
+          if($this->request->getFormat() == FORMAT_HTML) {
+            flash_error('Failed to update :filename', array('filename' => $old_name));
+            $this->redirectToUrl($parent->getViewUrl());
+          } else {
+            $this->serveData($save);
+          } // if
+        } // if
+      } // if
+    } // edit
+    
+    /**
+     * Delete attachment
+     * 
+     * @param void
+     * @return null
+     */
+    function delete() {
+      if($this->active_attachment->isNew()) {
+        $this->httpError(HTTP_ERR_NOT_FOUND);
+      } // if
+      
+      $parent = $this->active_attachment->getParent();
+      if(!instance_of($parent, 'ProjectObject')) {
+        $this->httpError(HTTP_ERR_NOT_FOUND);
+      } // if
+      
+      if (!$this->request->isSubmitted()) {
+        $this->httpError(HTTP_ERR_BAD_REQUEST);
+      } // if
+      
+      $delete = $this->active_attachment->delete();
+      if ($delete && !is_error($delete)) {
+        if($this->request->isAsyncCall()) {
+          $this->httpOk();
+        } else {
+          $this->redirectToReferer($parent->getViewUrl());
+        } // if
+      } else {
+        if ($this->request->isAsyncCall()) {
+          $this->httpError(HTTP_ERR_OPERATION_FAILED, $delete->getMessage());
+        } else {
+          flash_error($delete->getMessage());
+          $this->redirectToReferer($parent->getViewUrl());
+        } // if        
+      } // if
+    } // delete
+    
+//BOF:mod 20111206
+function rename(){
+    $new_file_name = trim(urldecode($_POST['new_name']));
+    if (!empty($new_file_name)){
+        $link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+	mysql_select_db(DB_NAME);
+        mysql_query("update healingcrystals_attachments set name='" . mysql_real_escape_string($new_file_name) . "' where id='" . $this->active_attachment->getId() . "'");
+        mysql_close($link);
+    }
+}
+
+function copy_to(){
+    $gettype = $_GET['gettype'];
+    $team_id = $_GET['team_id'];
+    $project_id = $_GET['project_id'];
+    $ticket_id = $_GET['ticket_id'];
+	$copy_to_object_id = $_GET['copy_to_object_id'];
+    if (!empty($gettype)){
+        $this->smarty->assign('gettype', $gettype);
+        switch ($gettype){
+            case 'projects':
+                $projects = array();
+                if (!empty($team_id)){
+                    $project_obj = new Project($team_id);
+                    //$projects = Milestones::findByProject($project_obj, $this->logged_user);
+					$projects = Milestones::findActiveByProject($project_obj);
+                }
+                $this->smarty->assign('projects', $projects);
+                break;
+            case 'tickets':
+                $tickets = array();
+                if (!empty($project_id)){
+                    $milestone_obj = new Milestone($project_id);
+                    //$tickets = Tickets::findByMilestone($milestone_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+					$tickets = Tickets::findOpenByMilestone($milestone_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+                }
+                $this->smarty->assign('tickets', $tickets);
+                break;
+			case 'pages':
+				$pages_with_milestone = array();
+				$pages_with_project = array();
+				if (!empty($team_id)){
+					$project_obj = new Project($team_id);
+					//$pages_with_project = Pages::findByProjectWithoutMilestoneAssociation($project_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+					$pages_with_project = Pages::findUnarchivedByProjectWithoutMilestoneAssociation($project_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+				} elseif (!empty($project_id)){
+					if (!empty($project_id)){
+						$milestone_obj = new Milestone($project_id);
+						$team_id = $milestone_obj->getProjectId();
+						//$pages_with_milestone = Pages::findByMilestone($milestone_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+						$pages_with_milestone = Pages::findUnarchivedByMilestone($milestone_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+						
+						$project_obj = new Project($team_id);
+						//$pages_with_project = Pages::findByProjectWithoutMilestoneAssociation($project_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+						$pages_with_project = Pages::findUnarchivedByProjectWithoutMilestoneAssociation($project_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+					}
+				}
+				$this->smarty->assign('pages_with_milestone', $pages_with_milestone);
+				$this->smarty->assign('pages_with_project', $pages_with_project);
+				break;
+            case 'action':
+				$copy_to_object = new ProjectObject($copy_to_object_id);
+                $link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+				mysql_select_db(DB_NAME);
+                //mysql_query("insert into healingcrystals_attachments (parent_id, parent_type, name, mime_type, size, location, attachment_type, created_on, created_by_id, created_by_name, created_by_email) (select '" . $ticket_id . "', 'Ticket', name, mime_type, size, location, attachment_type, now(), '" . $this->logged_user->getId() . "', '" . $this->logged_user->getName() . "', '" . $this->logged_user->getEmail() . "' from healingcrystals_attachments where id='" . $this->active_attachment->getId() . "')");
+				mysql_query("insert into healingcrystals_attachments (parent_id, parent_type, name, mime_type, size, location, attachment_type, created_on, created_by_id, created_by_name, created_by_email) (select '" . $copy_to_object->getId() . "', '" . $copy_to_object->getType() . "', name, mime_type, size, location, attachment_type, now(), '" . $this->logged_user->getId() . "', '" . $this->logged_user->getName() . "', '" . $this->logged_user->getEmail() . "' from healingcrystals_attachments where id='" . $this->active_attachment->getId() . "')");
+                mysql_close($link);
+                //$ticket_obj = new Ticket($ticket_id);
+				$type = $copy_to_object->getType();
+				$obj = new $type($copy_to_object_id);
+                //$link = '<a href="' . $ticket_obj->getViewUrl() . '">View</a>';
+				$link = 'Attachment Copied: <a href="' . $obj->getViewUrl() . '">Click to View</a>';
+                $this->smarty->assign('link', $link);
+                break;
+        }
+    } else {
+        $teams = Projects::findNamesByUser($this->logged_user);
+        $this->smarty->assign('teams', $teams);
+    }
+    $parent = $this->active_attachment->getParent();
+    $this->smarty->assign('cur_project_id', $parent->getProjectId());
+    $this->smarty->assign('cur_attachment_id', $this->active_attachment->getId());
+}
+//EOF:mod 20111206
+  
+function move_to(){
+    $gettype = $_GET['gettype'];
+    $team_id = $_GET['team_id'];
+    $project_id = $_GET['project_id'];
+    $ticket_id = $_GET['ticket_id'];
+	$move_to_object_id = $_GET['move_to_object_id'];
+    if (!empty($gettype)){
+        $this->smarty->assign('gettype', $gettype);
+        switch ($gettype){
+            case 'projects':
+                $projects = array();
+                if (!empty($team_id)){
+                    $project_obj = new Project($team_id);
+                    $projects = Milestones::findByProject($project_obj, $this->logged_user);
+                }
+                $this->smarty->assign('projects', $projects);
+                break;
+            case 'tickets':
+                $tickets = array();
+                if (!empty($project_id)){
+                    $milestone_obj = new Milestone($project_id);
+                    $tickets = Tickets::findByMilestone($milestone_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+                }
+                $this->smarty->assign('tickets', $tickets);
+                break;
+			case 'pages':
+				$pages_with_milestone = array();
+				$pages_with_project = array();
+				if (!empty($team_id)){
+					$project_obj = new Project($team_id);
+					$pages_with_project = Pages::findByProjectWithoutMilestoneAssociation($project_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+				} elseif (!empty($project_id)){
+					if (!empty($project_id)){
+						$milestone_obj = new Milestone($project_id);
+						$team_id = $milestone_obj->getProjectId();
+						$pages_with_milestone = Pages::findByMilestone($milestone_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+						
+						$project_obj = new Project($team_id);
+						$pages_with_project = Pages::findByProjectWithoutMilestoneAssociation($project_obj, STATE_VISIBLE, $this->logged_user->getVisibility());
+					}
+				}
+				$this->smarty->assign('pages_with_milestone', $pages_with_milestone);
+				$this->smarty->assign('pages_with_project', $pages_with_project);
+				break;
+            case 'action':
+				$move_to_object = new ProjectObject($move_to_object_id);
+                $link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+				mysql_select_db(DB_NAME);
+				mysql_query("update healingcrystals_attachments set parent_id='" . $move_to_object->getId() . "', parent_type='" . $move_to_object->getType() . "' where id='" . $this->active_attachment->getId() . "'");
+                mysql_close($link);
+				$type = $move_to_object->getType();
+				$obj = new $type($move_to_object_id);
+				$link = 'Attachment Moved: <a href="' . $obj->getViewUrl() . '">Click to View</a>';
+                $this->smarty->assign('link', $link);
+                break;
+        }
+    } else {
+        $teams = Projects::findNamesByUser($this->logged_user);
+        $this->smarty->assign('teams', $teams);
+    }
+    $parent = $this->active_attachment->getParent();
+    $this->smarty->assign('cur_project_id', $parent->getProjectId());
+    $this->smarty->assign('cur_attachment_id', $this->active_attachment->getId());
+}
+  
+  } // AttachmentsController
+
+?>

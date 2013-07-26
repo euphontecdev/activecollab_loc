@@ -1,0 +1,292 @@
+<?php
+
+  /**
+   * Tasks manager class
+   *
+   * @package activeCollab.modules.resources
+   * @subpackage models
+   */
+  class Tasks extends ProjectObjects {
+  
+    /**
+     * Return all tasks that belong to a given object
+     *
+     * @param ProjectObject $object
+     * @param integer $min_state
+     * @return array
+     */
+    function findByObject($object, $min_state = STATE_VISIBLE) {
+      return ProjectObjects::find(array(
+        'conditions' => array('parent_id = ? AND type = ? AND state >= ?', $object->getId(), 'Task', $min_state),
+        'order' => 'priority DESC, created_on'
+      ));
+    } // findByObject
+    
+    /**
+     * Return number of tasks in a given object
+     *
+     * @param ProjectObject $object
+     * @param integer $min_state
+     * @return integer
+     */
+    function countByObject($object, $min_state = STATE_VISIBLE) {
+      return ProjectObjects::count(array('parent_id = ? AND type = ? AND state >= ? ', $object->getId(), 'Task', $min_state));
+    } // countByObject
+    
+    /**
+     * Return open tasks that belong to a given object
+     *
+     * @param ProjectObject $object
+     * @param integer $min_state
+     * @return array
+     */
+    function findOpenByObject($object, $min_state = STATE_VISIBLE) {
+	 //BOF:mod 20120820
+	 /*
+	 //EOF:mod 20120820
+      return ProjectObjects::find(array(
+        'conditions' => array('parent_id = ? AND type = ? AND state >= ? AND completed_on IS NULL', $object->getId(), 'Task', $min_state),
+        'order' => 'ISNULL(position) ASC, position, priority DESC, created_on'
+      ));
+	 //BOF:mod 20120820
+	 */
+	 //$sql= "select a.*, if(a.due_on is null, b.reminder_date, a.due_on) as final_date from healingcrystals_project_objects a left join healingcrystals_project_object_misc b on(a.id=b.object_id) where a.parent_id = ? AND a.type = ? AND a.state >= ? AND a.completed_on IS NULL order by 
+	 //		isnull(priority) desc, if
+	 //		(
+	 //			priority='" . PRIORITY_ONGOING . "' and final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 1 DAY), 2.5, if
+	 //			(
+	 //				priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and WEEK(final_date, 1)=WEEK(NOW(), 1), 1.5, if 
+	 //				(
+	 //					priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and MONTH(final_date)=MONTH(NOW()), 0.5, if 
+	 //					(
+	 //						priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and QUARTER(final_date)=QUARTER(NOW()), -0.5, if 
+	 //						(
+	 //							priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()), -1.5, priority
+	 //						)
+	 //					)
+	 //				)
+	 //			)
+	 //		) DESC, name, ISNULL(position) ASC, position, created_on";
+	 
+	 //$sql= "select a.*, if(a.due_on is null, b.reminder_date, a.due_on) as final_date from healingcrystals_project_objects a left join healingcrystals_project_object_misc b on(a.id=b.object_id) where a.parent_id = ? AND a.type = ? AND a.state >= ? AND a.completed_on IS NULL order by 
+	 //		isnull(a.priority) desc, cast(if
+	 //		(
+	 //			a.priority='" . PRIORITY_ONGOING . "' and final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 1 DAY), 1.5, if
+	 //			(
+	 //				a.priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and WEEK(final_date, 1)=WEEK(NOW(), 1), 0.5, if 
+	 //				(
+	 //					a.priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and MONTH(final_date)=MONTH(NOW()), -0.5, if 
+	 //					(
+	 //						a.priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and QUARTER(final_date)=QUARTER(NOW()), -1.5, if 
+	 //						(
+	 //							a.priority='" . PRIORITY_ONGOING . "' and final_date is not null and YEAR(final_date)=YEAR(NOW()), -2.5, a.priority
+	 //						)
+	 //					)
+	 //				)
+	 //			)
+	 //		) as decimal(5,2)) DESC, a.name, ISNULL(a.position) ASC, a.position, a.created_on";
+		//BOF:mod 20120905
+		/*
+		//EOF:mod 20120905
+	 $sql= "select 
+				a.*, 
+				if(a.due_on is null, b.reminder_date, a.due_on) as final_date 
+			from 
+				healingcrystals_project_objects a 
+				left join healingcrystals_project_object_misc b on(a.id=b.object_id) 
+			where 
+				a.parent_id = ? AND 
+				a.type = ? AND 
+				a.state >= ? AND 
+				a.completed_on IS NULL 
+			order by 
+				isnull(a.priority) desc, 
+				cast(if 
+				( a.priority='-3' and final_date is not null and YEAR(final_date)=YEAR(NOW()) and MONTH(final_date)=MONTH(NOW()) and DAYOFMONTH(final_date)=DAYOFMONTH(NOW()), 1.5, if 
+					( a.priority='-3' and final_date is not null and final_date between DATE_ADD(NOW(), INTERVAL 2 DAY) and DATE_ADD(NOW(), INTERVAL 7 DAY), 0.5, if 
+						( a.priority='-3' and final_date is not null and final_date between DATE_ADD(NOW(), INTERVAL 8 DAY) and DATE_ADD(NOW(), INTERVAL 30 DAY), -0.5, if ( 
+							a.priority='-3' and final_date is not null and final_date between DATE_ADD(NOW(), INTERVAL 31 DAY) and DATE_ADD(NOW(), INTERVAL 90 DAY), -1.5, if 
+								( a.priority='-3' and final_date is not null and final_date>=DATE_ADD(NOW(), INTERVAL 91 DAY), -2.5, a.priority ) 
+							) 
+						) 
+					) 
+				) as decimal(5,2)) DESC, 
+				a.name, 
+				ISNULL(a.position) ASC, 
+				a.position, 
+				a.created_on";
+		//BOF:mod 20120905
+		*/
+		
+		//BOF:mod 20121127
+		$type = $object->getType();
+		if ($type=='Checklist'){
+			return ProjectObjects::find(array(
+				'conditions' => array('parent_id = ? AND type = ? AND state >= ? AND completed_on IS NULL', $object->getId(), 'Task', $min_state),
+				'order' => 'ISNULL(position) ASC, position, priority DESC, created_on'
+			));
+		} else {
+		//EOF:mod 20121127
+		//BOF:mod 20130410
+		/*
+		//EOF:mod 20130410
+		$sql= "select 
+					a.*, 
+					if (
+					a.due_on is not null and 
+					a.due_on<>'0000-00-00' and 
+					b.reminder_date is not null and 
+					b.reminder_date<>'0000-00-00 00:00:00' and 
+					a.completed_on is null, 
+						if (
+						a.due_on<=b.reminder_date, 
+							a.due_on, 
+							b.reminder_date
+						), 
+						if (
+						b.reminder_date is not null and 
+						b.reminder_date<>'0000-00-00 00:00:00' and 
+						a.completed_on is null, 
+							b.reminder_date, 
+							a.due_on
+						)
+					) as final_date
+				from 
+					healingcrystals_project_objects a 
+					left join healingcrystals_project_object_misc b on(a.id=b.object_id) 
+				where 
+					a.parent_id = ? AND 
+					a.type = ? AND 
+					a.state >= ? AND 
+					a.completed_on IS NULL 
+				order by 
+					isnull(a.priority) desc, 
+					cast( if (
+						final_date is not null and final_date < NOW(), 2.5, if (
+							final_date is not null and YEAR(final_date)=YEAR(NOW()) and MONTH(final_date)=MONTH(NOW()) and DAYOFMONTH(final_date)=DAYOFMONTH(NOW()) and (a.priority='" .PRIORITY_HIGH . "' or a.priority='" .PRIORITY_NORMAL . "' or a.priority='" .PRIORITY_LOW . "' or a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "'), 1.5, if (
+								final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 7 DAY) and (a.priority='" .PRIORITY_NORMAL . "' or a.priority='" .PRIORITY_LOW . "' or a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "') , 0.5, if (
+									final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 30 DAY) and (a.priority='" .PRIORITY_LOW . "' or a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "'), -0.5, if (
+										final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 90 DAY) and (a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "'), -1.5, a.priority
+									)
+								)
+							)
+						)
+					) as decimal(5,2)) DESC, final_date asc, 
+				ISNULL(a.position) ASC, 
+				a.position, 
+				a.created_on, 
+				a.name";
+		//EOF:mod 20120905
+		//BOF:mod 20130410
+		*/
+		$sql= "select 
+					a.*, 
+					if (
+					a.due_on is not null and 
+					a.due_on<>'0000-00-00' and 
+					b.email_reminder_unit is not null and 
+					b.email_reminder_unit<>'' and 
+					a.completed_on is null, 
+						if (
+						a.due_on<=cast(if(b.email_reminder_unit='D', 
+									concat(DATE_SUB(a.due_on, interval b.email_reminder_period day), ' ', b.email_reminder_time), 
+									if(b.email_reminder_unit='W', 
+										concat(DATE_SUB(a.due_on, interval b.email_reminder_period week), ' ', b.email_reminder_time), 
+										if(b.email_reminder_unit='M', 
+											concat(DATE_SUB(a.due_on, interval b.email_reminder_period month), ' ', b.email_reminder_time), 
+											null
+										)
+									)
+								) as datetime), 
+							a.due_on, 
+							cast(if(b.email_reminder_unit='D', 
+								concat(DATE_SUB(a.due_on, interval b.email_reminder_period day), ' ', b.email_reminder_time), 
+								if(b.email_reminder_unit='W', 
+									concat(DATE_SUB(a.due_on, interval b.email_reminder_period week), ' ', b.email_reminder_time), 
+									if(b.email_reminder_unit='M', 
+										concat(DATE_SUB(a.due_on, interval b.email_reminder_period month), ' ', b.email_reminder_time), 
+										null
+									)
+								)
+							) as datetime)
+						), 
+						a.due_on
+					) as final_date
+				from 
+					healingcrystals_project_objects a 
+					left join healingcrystals_project_object_misc b on(a.id=b.object_id) 
+				where 
+					a.parent_id = ? AND 
+					a.type = ? AND 
+					a.state >= ? AND 
+					a.completed_on IS NULL 
+				order by 
+					isnull(a.priority) desc, 
+					cast( if (
+						final_date is not null and final_date < NOW(), 2.5, if (
+							final_date is not null and YEAR(final_date)=YEAR(NOW()) and MONTH(final_date)=MONTH(NOW()) and DAYOFMONTH(final_date)=DAYOFMONTH(NOW()) and (a.priority='" .PRIORITY_HIGH . "' or a.priority='" .PRIORITY_NORMAL . "' or a.priority='" .PRIORITY_LOW . "' or a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "'), 1.5, if (
+								final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 7 DAY) and (a.priority='" .PRIORITY_NORMAL . "' or a.priority='" .PRIORITY_LOW . "' or a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "') , 0.5, if (
+									final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 30 DAY) and (a.priority='" .PRIORITY_LOW . "' or a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "'), -0.5, if (
+										final_date is not null and final_date<=DATE_ADD(NOW(), INTERVAL 90 DAY) and (a.priority='" .PRIORITY_LOWEST . "' or a.priority='" .PRIORITY_HOLD . "'), -1.5, a.priority
+									)
+								)
+							)
+						)
+					) as decimal(5,2)) DESC, final_date asc, 
+				ISNULL(a.position) ASC, 
+				a.position, 
+				a.created_on, 
+				a.name";
+		//EOF:mod 20130410
+		return ProjectObjects::findBySQL($sql, array($object->getId(), 'Task', $min_state));
+		//BOF:mod 20121127
+		}
+		//EOF:mod 20121127
+	 //EOF:mod 20120820
+    } // findOpenByObject
+    
+    /**
+     * Return number of open tasks in a given object
+     *
+     * @param ProjectObject $object
+     * @param integer $min_state
+     * @return integer
+     */
+    function countOpenByObject($object, $min_state = STATE_VISIBLE) {
+      return ProjectObjects::count(array('parent_id = ? AND type = ? AND state >= ? AND completed_on IS NULL', $object->getId(), 'Task', $min_state));
+    } // countOpenByObject
+    
+    /**
+     * Return only completed tasks that belong to a specific object
+     *
+     * @param ProjectObject $object
+     * @param integer $limit
+     * @param integer $min_state
+     * @return array
+     */
+    function findCompletedByObject($object, $limit=NULL, $min_state = STATE_VISIBLE) {
+      $conditions = array(
+        'conditions' => array('parent_id = ? AND type = ? AND state >= ? AND completed_on IS NOT NULL', $object->getId(), 'Task', $min_state),
+        'order' => 'completed_on DESC'
+      );
+      
+      if ($limit !== null) {
+       $conditions['limit'] = $limit;
+      } // if
+      return ProjectObjects::find($conditions);
+    } // findCompletedByObject
+    
+    /**
+     * Return number of completed tasks in a given object
+     *
+     * @param ProjectObject $object
+     * @param integer $min_state
+     * @return integer
+     */
+    function countCompletedByObject($object, $min_state = STATE_VISIBLE) {
+      return ProjectObjects::count(array('parent_id = ? AND type = ? AND state >= ? AND completed_on IS NOT NULL', $object->getId(), 'Task', $min_state));
+    } // countCompletedByObject
+  
+  } // Tasks
+
+?>

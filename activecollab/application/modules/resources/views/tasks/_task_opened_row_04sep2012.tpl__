@@ -1,0 +1,53 @@
+                <li class="{cycle values='odd,even'} sort"id="task{$_object_task->getId()}">
+                  <span class="task">
+                    <span class="left_options">
+                      <span class="option star">{object_star object=$_object_task user=$logged_user}</span>
+                      <span class="option checkbox">
+                        {if $_object_task->canChangeCompleteStatus($logged_user)}
+                          {link href=$_object_task->getCompleteUrl(true) class=complete_task}<img src="{image_url name=icons/not-checked.gif}" alt="toggle" />{/link}
+                        {else}
+                          <img src="{image_url name=icons/not-checked.gif}" alt="toggle" />
+                        {/if}
+                      </span>
+                      <!--span class="option">{object_priority object=$_object_task}</span>
+                      <span class="option">                          
+                          {select_priority_images name=$_object_task->getId() value=$_object_task->getPriority() url=$_object_task->getAjaxChangePriorityUrl()}
+                    </span//-->                     
+                      <span class="option">                          
+                          {select_priority_images name=$_object_task->getId() value=$_object_task->getPriority() url=$_object_task->getAjaxChangePriorityUrl()}
+                    </span>
+                    </span>
+                    <span class="right_options">
+                        <span class="option">{*}{object_subscription object=$_object_task user=$logged_user}{*}</span>
+                      {if module_loaded('timetracking') && $logged_user->getProjectPermission('timerecord', $_object_task->getProject())}
+                        <span class="option">{object_time object=$_object_task show_time=no}</span>
+                      {/if}
+                      {if $_object_task->canEdit($logged_user)}
+                      	<span class="option">{link href=$_object_task->getAjaxEditUrl() title='Quick edit...' onclick="editTask(this);return false;"}<img src='{image_url name=quickedit.png}' alt='' />{/link}</span>
+                        <span class="option">{link href=$_object_task->getEditUrl() title='Edit...'}<img src='{image_url name=gray-edit.gif}' alt='' />{/link}</span>
+                      {/if}
+                      {if $_object_task->canDelete($logged_user)}
+                        <span class="option">{link href=$_object_task->getTrashUrl() title='Move to Trash' class=remove_task}<img src='{image_url name=gray-delete.gif}' alt='' />{/link}</span>
+                      {/if}
+                    </span>
+                    <span class="main_data">
+					{*}BOF:mod 20120817{*}<div>{*}EOF:mod 20120817{*}
+                      <input type="hidden" name="task[{$_object_task->getId(true)}]" />
+                      {*}{$_object_task->getBody()|clean|clickable}{*}
+                      <span id="task_{$_object_task->getId(true)}">{$_object_task->getBody()|clickable}</span>
+                    {if $_object_task->hasAssignees(true) && $_object_task->getDueOn()}
+                      <span class="details block">{object_assignees object=$_object_task} | {due object=$_object_task}</span>
+                    {elseif $_object_task->hasAssignees(true)}
+                      <span class="details block">{object_assignees object=$_object_task}</span>
+                    {elseif $_object_task->getDueOn()}
+                      <span class="details block">{due object=$_object_task}</span>
+                    {/if}
+                    {reminder object=$_object_task}
+                    <span class="option">
+                        {$_object_task->get_auto_email_value()}
+                    </span>
+					{*}BOF:mod 20120817{*}</div>{*}EOF:mod 20120817{*}
+                  </span>
+				{*}BOF:mod 20120817{*}<div style="display:inline;float:right;cursor:pointer;font-weight:bold;" id="showmore"></div>{*}EOF:mod 20120817{*}
+                  </span>
+                </li>

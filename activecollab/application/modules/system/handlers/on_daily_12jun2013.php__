@@ -1,0 +1,105 @@
+<?php
+
+  /**
+   * System handle daily tasks
+   *
+   * @package activeCollab.modules.system
+   * @subpackage handlers
+   */
+  
+  /**
+   * Do daily taks
+   *
+   * @param void
+   * @return null
+   */
+  function system_handle_on_daily() {
+    ProjectObjectViews::cleanUp();
+
+	$priorities_images = array(
+		PRIORITY_URGENT 	=> 'assets/images/icons/priority/urgent.png',
+		PRIORITY_HIGHEST 	=> 'assets/images/icons/priority/highest.gif',
+		PRIORITY_HIGH    	=> 'assets/images/icons/priority/high.gif',
+		PRIORITY_NORMAL  	=> 'assets/images/icons/priority/normal.gif',
+		PRIORITY_LOW     	=> 'assets/images/icons/priority/low.gif',
+		PRIORITY_LOWEST  	=> 'assets/images/icons/priority/lowest.gif',
+		PRIORITY_HOLD  		=> 'assets/images/icons/priority/hold.png',
+		'-99'  				=> 'assets/images/icons/priority/unknown.png',);
+
+	$pages = array();
+	$link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+	mysql_select_db(DB_NAME);
+	$sql = "select id, name from healingcrystals_project_objects where project_id='" . TASK_LIST_PROJECT_ID . "' and type='Page'";
+	$result = mysql_query($sql, $link);
+	while ($entry = mysql_fetch_assoc($result)){
+		list($name, ) = explode('-', $entry['name']);
+		$name = trim($name);
+		$pages[$name] = $entry['id'];
+	}
+	
+	$current_time = time();
+
+	$users = Users::findAll();
+	foreach($users as $user){
+		$flag = 1;
+		$message = '';
+		$name = $user->getName();
+		if (array_key_exists($name, $pages)){
+			$page = new Page($pages[$name]);
+			if ($page){
+				$sql = "select id from healingcrystals_project_objects where parent_id='" . $pages[$name] . "' and parent_type='Page' and type='Task' and completed_on is null and priority is null and created_on>='" . date('Y-m-d H:i:s', $current_time - (1*24*60*60) ) . "' order by created_on";
+				$result = mysql_query($sql, $link);
+				if (mysql_num_rows($result)){
+					$show_task_list = true;
+				} else {
+					$show_task_list = false;
+				}
+			
+				if (date('N')=='1' || $show_task_list){
+					$message .= 
+	'<style>
+		.odd {background-color:#ffffff;}
+		.even{background-color:#eeeeee;}
+	</style>
+	<table>
+		<tr>
+			<td colspan="3">Task List: ' . $name . '</td>
+		</tr>
+		<tr>
+			<td align="center">Priority</td>
+			<td>Task</td>
+			<td>&nbsp;</td>
+		</tr>';
+					$tasks = Tasks::findOpenByObject($page);
+					foreach($tasks as $task){
+						$message .= '
+		<tr class="' . ($flag%2===1 ? 'odd' : 'even' ) . '">
+			<td valign="top" align="center"><img  src="http://projects.ffbh.org/public/' . $priorities_images[$task->getPriority()] . '"/></td>
+			<td valign="top">' . $task->getName() . '</td>
+			<td valign="top"><a href="' . $task->getViewUrl() . '">View</a></td>
+		</tr>';
+						$flag++;
+					}
+					$message .= '
+	</table>';
+					$subject = 'projects: healingcrystals.com Task list';
+					$headers  = 'MIME-Version: 1.0' . "\r\n";
+					$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+					$headers .= 'From: FFBH Reminder <auto@ffbh.org>' . "\r\n";
+					mail($user->getEmail(), $subject, $message, $headers);
+				}
+			}
+		}
+		
+	}
+	
+	$sql = "select po.id, cast(if( pom.recurring_period_type='D', DATE_ADD(po.due_on, interval pom.recurring_period day), if(pom.recurring_period_type='W', DATE_ADD(po.due_on, interval pom.recurring_period week), if(pom.recurring_period_type='M', DATE_ADD(po.due_on, interval pom.recurring_period month), null ) ) ) as Date) as next_due_date, cast(DATE_ADD(now(), interval 0 day) as Date) as cur_date from healingcrystals_project_objects po inner join healingcrystals_project_object_misc pom on po.id=pom.object_id where po.type='Task' and po.due_on is not null and po.due_on<=now() and po.completed_on is null and pom.recurring_period_condition='after_due_date' and if(pom.recurring_end_date is not null and pom.recurring_end_date!='0000-00-00', if(pom.recurring_end_date>=now(), 1, 0), 1)=1 having next_due_date=cur_date";
+	$result = mysql_query($sql);
+	while ($entry = mysql_fetch_assoc($result)){
+		$task = new Task($entry['id']);
+		$action = $task->complete(new AnonymousUser('auto', 'auto@projects.ffbh.org'));
+	}
+	
+	mysql_close($link);
+  } // system_handle_on_daily
+?>

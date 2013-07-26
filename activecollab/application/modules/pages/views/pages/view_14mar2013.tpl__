@@ -1,0 +1,88 @@
+{*27 March 2012 Ticket #770: modify Print function for Pages in AC (SA)*}
+{*23 April 2012 Ticket #801: add ability to print Page Body Text (like we can now print Ticket Body Text)(SA)*}
+<script type="text/javascript">
+	if (location.hash.indexOf('#comment')!=-1 && location.href.indexOf('&comment_id=')==-1){ldelim}
+		var comment_id = location.hash.replace(/#comment/, '');
+		location.href = location.href.replace(location.hash, '') + '&comment_id=' + comment_id;
+	{rdelim}
+</script>
+{page_object object=$active_page}
+{if $active_page->getRevisionNum() > 1}
+  {details}{lang version=$active_page->getRevisionNum()}Version #:version{/lang}. {action_on_by user=$active_page->getUpdatedBy() datetime=$active_page->getUpdatedOn() action='Last time updated'}{/details}
+{else}
+  {details}{lang version=$active_page->getRevisionNum()}Version #:version{/lang}. {action_on_by user=$active_page->getCreatedBy() datetime=$active_page->getCreatedOn() action='Created'}{/details}
+{/if}
+{add_bread_crumb}Latest Version{/add_bread_crumb}
+
+{object_quick_options object=$active_page user=$logged_user}
+<div class="page main_object" id="page{$active_page->getId()}">
+  <div class="body">
+    <dl class="properties">
+      <dt>{lang}Status{/lang}</dt>
+    {if $active_page->getIsArchived()}
+      <dd>{lang}Archived{/lang}</dd>
+    {else}
+      <dd>{lang}Active{/lang}</dd>
+    {/if}
+  
+    {if $logged_user->canSeeMilestones($active_project) && $active_page->getMilestoneId()}
+      <dt>{lang}Milestone{/lang}</dt>
+      <dd>
+			<span id="project_link">{milestone_link object=$active_page}&nbsp;<img id="project_selector" src="assets/images/icons/down_arrow.png" style="cursor:pointer;" /></span>
+			<span id="project_list" style="display:none;">{object_project_selection object=$active_page user=$logged_user}</span>
+	  </dd>
+    {/if}
+    
+      <dt>{lang}Department(s){/lang}</dt>
+      <dd>
+		{*}
+		<span id="department_link">{object_departments object=$active_page}&nbsp;<img id="department_selector" src="assets/images/icons/down_arrow.png" style="cursor:pointer;" /></span>
+		<span id="department_list" style="display:none;">{object_department_selection object=$active_page}</span>
+		{*}
+		<span id="department_link">{object_departments object=$active_page}</span>
+	  </dd>
+    {if $active_page->hasTags()}
+      <dt>{lang}Tags{/lang}</dt>
+      <dd>{object_tags object=$active_page}</dd>
+    {/if}
+    <dd align="right">{link href=$active_page->getPrintDescriptionUrl() title='Print Page'}<img src="{image_url name=icons/print.gif}" alt="" />{/link}</dd>
+	
+    </dl>
+    
+    <div class="body content">{$active_page->getFormattedBody()}</div>
+  </div>
+  
+  <div class="resources">
+    {list_subpages parent=$active_page subpages=$subpages}
+    <div class="dont_print">{page_versions page=$active_page versions=$versions}</div>
+    <div class="dont_print">{object_tasks object=$active_page}</div>
+    {object_subscriptions object=$active_page}
+    {object_attachments object=$active_page}
+    
+    <div class="resource object_comments" id="comments">
+      <div class="body">
+      {*if $pagination->getLastPage() > 1}
+        <p class="pagination top"><span class="inner_pagination">{lang}Page{/lang}: {pagination pager=$pagination}{$active_page->getViewUrl('-PAGE-')}{/pagination}</span></p>
+        <div class="clear"></div>
+        {/if*}
+        
+        {*if $pagination->getLastPage() > $pagination->getCurrentPage()}
+          {object_comments object=$active_page comments=$comments show_header=no count_from=$count_start next_page=$active_page->getViewUrl($pagination->getNextPage())}
+        {else}
+          {object_comments object=$active_page comments=$comments show_header=no count_from=$count_start}
+        {/if*}
+		{object_comments object=$active_page comments=$comments show_header=no count_from=$count_start view_url=$active_page->getViewUrl() current_page=$pagination->getCurrentPage() last_page=$pagination->getLastPage() scroll_to_comment=$scroll_to_comment}
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+	$('img#project_selector').click(function(){ldelim}
+		$('span#project_link').css('display', 'none');
+		$('span#project_list').css('display', '');
+	{rdelim})
+	$('img#department_selector').click(function(){ldelim}
+		$('span#department_link').css('display', 'none');
+		$('span#department_list').css('display', '');
+	{rdelim})
+  </script>
+</div>
